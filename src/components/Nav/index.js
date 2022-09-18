@@ -1,18 +1,14 @@
 import React from "react";
 import { capitalizeFirstLetter } from "../../utils/helper";
 
-function Nav(props) {
-  const {
-    categories = [],
-    setCurrentCategory,
-    currentCategory,
-  } = props;
 
 
-  const handleClick = (item) => {
-    console.log(item);
-    return item;
-  };
+function Nav({props, handleClick, currentPage}) {
+ 
+  
+
+
+
 
   return (
     <header className="flex-row px-1">
@@ -24,12 +20,17 @@ function Nav(props) {
       <nav>
         <ul className="flex-row">
           <li className="mx-2">
-            <span data-testid="about" href="#about" onClick={() => handleClick('About')}>
+            <span data-testid="about" href="#About" onClick={() => handleClick('About')}>
               About me
             </span>
           </li>
+          <li className="mx-2">
+            <span data-testid="about" href="#About" onClick={() => handleClick('Resume')}>
+              Resume
+            </span>
+          </li>
           <li className={"mx-2"}>
-            <span onClick={() => handleClick('Portfolio')}>
+            <span href="#portfolio" onClick={() => handleClick('Portfolio')}>
               Portfolio
             </span>
           </li>
@@ -38,7 +39,7 @@ function Nav(props) {
               Contact
             </span>
           </li>
-          {categories.map((category) => (
+          {/* {categories.map((category) => (
             <li
               className={`mx-1 ${
                 currentCategory.name === category.name
@@ -53,7 +54,7 @@ function Nav(props) {
                 {capitalizeFirstLetter(category.name)}
               </span>
             </li>
-          ))}
+          ))} */}
         </ul>
       </nav>
     </header>

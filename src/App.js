@@ -10,24 +10,25 @@ function App() {
   const [currentPage, setCurrentPage] = useState('Home');
 
   const renderPage = () => {
-    if (currentPage === 'Home') {
+    if (currentPage === 'About') {
       return <About />;
     }
-    if (currentPage === 'About') {
+    if (currentPage === 'Resume') {
       return <Resume />;
     }
-    if (currentPage === 'Blog') {
+    if (currentPage === 'Portfolio') {
       return <Portfolio />;
     }
     return <Contact />;
   };
 
-
+  const handlePageChange = (page) => setCurrentPage(page);
   return (
     
     <div>
       <Hero></Hero>
-      <Nav></Nav>
+      the current page is{currentPage}
+      <Nav currentPage={currentPage} handleClick={handlePageChange}></Nav>
       <main>
       {renderPage()}
       </main>
