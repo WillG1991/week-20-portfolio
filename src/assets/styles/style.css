@@ -1,0 +1,13 @@
+nav ul {
+    list-style: none;
+    display: flex;
+  }
+
+  .back {
+background-image: url('../img/crouds.gif');
+background-size: cover;
+min-height: 100vh;
+  }
+
+
+  

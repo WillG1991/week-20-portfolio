@@ -19,13 +19,16 @@ function App() {
     if (currentPage === 'Portfolio') {
       return <Portfolio />;
     }
-    return <Contact />;
+    if (currentPage === 'Contact') {
+      return <Contact />
+    }
+    
   };
 
   const handlePageChange = (page) => setCurrentPage(page);
   return (
     
-    <div>
+    <div className="back">
       <Hero></Hero>
       the current page is{currentPage}
       <Nav currentPage={currentPage} handleClick={handlePageChange}></Nav>
