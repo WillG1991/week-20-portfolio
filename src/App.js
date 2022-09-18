@@ -7,6 +7,20 @@ import Portfolio from '../src/components/Portfolio';
 import Hero from '../src/components/Hero';
 
 function App() {
+  const [currentPage, setCurrentPage] = useState('Home');
+
+  const renderPage = () => {
+    if (currentPage === 'Home') {
+      return <About />;
+    }
+    if (currentPage === 'About') {
+      return <Resume />;
+    }
+    if (currentPage === 'Blog') {
+      return <Portfolio />;
+    }
+    return <Contact />;
+  };
 
 
   return (
@@ -15,10 +29,7 @@ function App() {
       <Hero></Hero>
       <Nav></Nav>
       <main>
-      <About></About>
-      <Portfolio></Portfolio>
-      <Resume></Resume>
-        <Contact></Contact>
+      {renderPage()}
       </main>
     </div>
   );

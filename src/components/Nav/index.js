@@ -24,9 +24,14 @@ function Nav(props) {
       <nav>
         <ul className="flex-row">
           <li className="mx-2">
-            <a data-testid="about" href="#about">
+            <span data-testid="about" href="#about" onClick={() => handleClick('About')}>
               About me
-            </a>
+            </span>
+          </li>
+          <li className={"mx-2"}>
+            <span onClick={() => handleClick('Portfolio')}>
+              Portfolio
+            </span>
           </li>
           <li className={"mx-2"}>
             <span onClick={() => handleClick('Contact')}>
