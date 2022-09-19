@@ -1,10 +1,9 @@
 function Contact() {
     return (
         <section class="contact-form">
-            <div></div>
-            <div></div>
+            
             <h2 class="text-center">Contact Me</h2>
-            <form id="contact-form">
+            <form id="contact-form text-center">
                 <div class="p-2 bd-highlight">
                     <label htmlFor="name"><h3>Name:</h3></label>
                     <input type="text" name="name" />

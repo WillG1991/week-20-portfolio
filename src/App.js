@@ -5,6 +5,7 @@ import Resume from '../src/components/Resume';
 import Contact from '../src/components/Contact';
 import Portfolio from '../src/components/Portfolio';
 import Hero from '../src/components/Hero';
+import Movie from '../src/components/Movie';
 
 function App() {
   const [currentPage, setCurrentPage] = useState('Home');
@@ -21,6 +22,9 @@ function App() {
     }
     if (currentPage === 'Contact') {
       return <Contact />
+    }
+    if (currentPage === 'Movie') {
+      return <Movie />
     }
     
   };

@@ -5,8 +5,8 @@ function Resume() {
 
   return (
     <section className="my-5" >
-      <h2 id="about">Resume</h2>
-      {/* <img src={coverImage} className="my-2" style={{ width: "100%" }} alt="cover" /> */}
+      <h2 id="about" class="text-center">Resume</h2>
+      
       <div className="my-2">
       <p class="text-white-50">
                             Feel free to check out my work and 
