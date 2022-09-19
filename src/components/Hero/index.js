@@ -1,7 +1,7 @@
 function Hero() {
     return (
         <section>
-            <h1>Hero</h1>
+            <h1 class="is-centered">Will</h1>
         </section>
     )
 }
