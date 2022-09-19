@@ -30,7 +30,6 @@ function App() {
     
     <div className="back">
       <Hero></Hero>
-      the current page is{currentPage}
       <Nav currentPage={currentPage} handleClick={handlePageChange}></Nav>
       <main>
       {renderPage()}

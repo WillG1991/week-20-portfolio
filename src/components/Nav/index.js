@@ -7,36 +7,52 @@ function Nav({handleClick}) {
  
  return (
     <header className="flex-row px-1">
-      <h2>
+     <h2> <span role="img" aria-label="camera"> 🏠</span> </h2>
+      <h3>
         <a data-testid="link" href="/">
-          <span role="img" aria-label="camera"> 📸</span> Icon
+        Home
         </a>
-      </h2>
+      </h3>
       <nav>
         <ul className="flex-row">
           <li className="mx-2">      
-                                  {/*Handle Click picks */}
             <span data-testid="about" href="#About" onClick={() => handleClick('About')}>
-            <img src="man.png" style={{width: "50px"}} alt="icon"></img> 
-              About me
+            <h2 class="text-center">👨‍🔧</h2>
+            <h3>
+        <a data-testid="link" href="/">
+          <span role="img" aria-label="camera"> </span> About-Me
+        </a>
+      </h3>
             </span>
           </li>
-          <li className="mx-2">
-            <span data-testid="about" href="#About" onClick={() => handleClick('Resume')}>
-            <img src="cv.png" style={{width: "50px"}} alt="icon"></img>  
-              Resume
+          <li className="mx-2">      
+            <span data-testid="portfolio" href="#Portfolio" onClick={() => handleClick('Portfolio')}>
+            <h2 class="text-center">🖥️</h2>
+            <h3>
+        <a data-testid="link" href="/">
+          <span role="img" aria-label="camera"> </span> Portfolio
+        </a>
+      </h3>
             </span>
           </li>
-          <li className={"mx-2"}>
-            <span href="#portfolio" onClick={() => handleClick('Portfolio')}>
-            <img src="portfolio.png" style={{width: "50px"}} alt="icon"></img> 
-              Portfolio
+          <li className="mx-2">      
+            <span data-testid="resume" href="#Resume" onClick={() => handleClick('Resume')}>
+            <h2 class="text-center">📄</h2>
+            <h3>
+        <a data-testid="link" href="/">
+          <span role="img" aria-label="camera"> </span> Resume
+        </a>
+      </h3>
             </span>
           </li>
-          <li className={"mx-2"}>
-            <span onClick={() => handleClick('Contact')}>
-            <img src="contact-book.png" style={{width: "50px"}} alt="icon"></img> 
-              Contact
+          <li className="mx-2">      
+            <span data-testid="contact" href="#Contact" onClick={() => handleClick('Contact')}>
+            <h2 class="text-center">📞</h2>
+            <h3>
+        <a data-testid="link" href="/">
+          <span role="img" aria-label="camera"> </span> Contact
+        </a>
+      </h3>
             </span>
           </li>
         </ul>
