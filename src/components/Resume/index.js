@@ -8,8 +8,11 @@ function Resume() {
       <h2 id="about">Resume</h2>
       {/* <img src={coverImage} className="my-2" style={{ width: "100%" }} alt="cover" /> */}
       <div className="my-2">
-        <p>
-Resume      </p>
+      <p class="text-white-50">
+                            Feel free to check out my work and 
+                            <a href="https://startbootstrap.com/theme/grayscale/"> resume</a>
+                            !
+                        </p>
       </div>
     </section>
   )
