@@ -9,7 +9,6 @@ nav ul {
   .borderBox {
       border: 2px solid;
       padding: 20px; 
-      width: 300px;
       resize: both;
       overflow: auto;
       background: linear-gradient(rgba(114, 108, 108, 0.9), rgba(255, 255, 255, 0));
@@ -17,7 +16,37 @@ nav ul {
       border: 1px  rgba(255, 255, 255, 0.9);
       border-radius: 12px;
       padding: 5px;
+      height: 374px;
+      width: 1074px;
     
+  }
+
+  .borderBoxResume {
+    border: 2px solid;
+      padding: 20px; 
+      resize: both;
+      overflow: auto;
+      background: linear-gradient(rgba(114, 108, 108, 0.9), rgba(255, 255, 255, 0));
+      margin: auto !important;
+      border: 1px  rgba(255, 255, 255, 0.9);
+      border-radius: 12px;
+      padding: 5px;
+      height: 156px; 
+      width: 575px;
+  }
+
+  .borderBoxContact {
+    border: 2px solid;
+      padding: 20px; 
+      resize: both;
+      overflow: auto;
+      background: linear-gradient(rgba(114, 108, 108, 0.9), rgba(255, 255, 255, 0));
+      margin: auto !important;
+      border: 1px  rgba(255, 255, 255, 0.9);
+      border-radius: 12px;
+      padding: 5px;
+      width: 622px; 
+      height: 274px;
   }
 
   nav li {
@@ -119,6 +148,21 @@ mx-2 {
   font-family: varela-round,sans-serif;
   ;
 }
+
+img {
+  width: 500px;
+  height: 300px;
+}
+
+.selfie {
+  width: 400px;
+  height: 300px;
+}
+
+.btn {
+  justify-content: center;
+}
+
 
 @keyframes pulse {
   0% {

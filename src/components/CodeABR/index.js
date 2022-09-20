@@ -1,7 +1,7 @@
 import React from 'react'
-import Stream from '../../assets/img/stream.png'
+import CodeBR from '../../assets/img/codeabr.png'
 
-function Movie() {
+function Code() {
 
   return (
     <section className="my-5" >
@@ -12,11 +12,11 @@ function Movie() {
     <div class="container">
   <div class="row">
     <div class="col">
-    <img className="selfie" src={Stream} alt="Streaming search"/>
+    <img className="selfie" src={CodeBR} alt="Streaming search"/>
     </div>
     <div class="col">
      <h4>
-     This is a search engine that will find availability of sites to stream a specific show or movie at.
+     Social media site allowing users to find relaxing resources for coding.
       </h4> 
     </div>
   </div>
@@ -26,4 +26,4 @@ function Movie() {
   )
 }
 
-export default Movie
+export default Code

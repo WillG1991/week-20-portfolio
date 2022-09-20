@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import Movie from '../Movie/index';
 import Weather from '../Weather/index';
+import Code from '../CodeABR/index'
 
 function Portfolio({ handleClick }) {
   const [currentPage, setCurrentPage] = useState('');
@@ -11,6 +12,9 @@ function Portfolio({ handleClick }) {
       }
       if (currentPage === 'Weather') {
         return <Weather />
+      }
+      if (currentPage === 'Code') {
+        return <Code />
       }
 
     };
@@ -58,14 +62,15 @@ function Portfolio({ handleClick }) {
               </li>
               <li className="mx-2">
                 <span
-                  data-testid="third"
-                  onClick={() => handleClick("Third")}
+                  data-testid="code"
+                  href="#Code"
+                  onClick={() => handlePageChange("Code")}
                 >
                   <h2 class="text-center circle">📁</h2>
                   <h3>
                     
                       <span role="img" aria-label="camera">
-                        Filler{" "}
+                        Code-A-BR{" "}
                       </span>
                     
                   </h3>
