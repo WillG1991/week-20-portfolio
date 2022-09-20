@@ -18,10 +18,10 @@ function Portfolio({ handleClick }) {
     const handlePageChange = (page) => setCurrentPage(page);
 
   return (
-    <section className="my-5">
-      <h2 id="about">Works</h2>
+    <section className="d-flex justify-content-center">
+     
 
-      <div className="my-2">
+      <div id="about" className="my-2">
         <p>
           <nav>
             <ul className="flex-row">
@@ -31,7 +31,7 @@ function Portfolio({ handleClick }) {
                   href="#Movie"
                   onClick={() => handlePageChange("Movie")}
                 >
-                  <h3 class="text-center circle">🎬</h3>
+                  <h2 class="text-center circle">🎬</h2>
                   <h3>
                       <span role="img" aria-label="camera">
                         {" "}
@@ -46,7 +46,7 @@ function Portfolio({ handleClick }) {
                   href="#Portfolio"
                   onClick={() => handlePageChange("Weather")}
                 >
-                  <h3 class="text-center circle">⛅</h3>
+                  <h2 class="text-center circle">⛅</h2>
                   <h3>
                     
                       <span role="img" aria-label="camera">
@@ -61,7 +61,7 @@ function Portfolio({ handleClick }) {
                   data-testid="third"
                   onClick={() => handleClick("Third")}
                 >
-                  <h3 class="text-center circle">📁</h3>
+                  <h2 class="text-center circle">📁</h2>
                   <h3>
                     
                       <span role="img" aria-label="camera">
