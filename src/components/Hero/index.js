@@ -1,7 +1,7 @@
 function Hero() {
     return (
         <section>
-            <h1 class="text-center">Will</h1>
+            <h1 class="text-center varela-font">Will</h1>
         </section>
     )
 }

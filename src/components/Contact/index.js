@@ -1,7 +1,7 @@
 function Contact() {
     return (
         <section class="contact-form ">
-            <h2 class="text-center">Contact Me</h2>
+            <h2 class="text-center varela-font">Contact Me</h2>
             <form id="contact-form  ">
             <div class="borderBox">
                 <div class="p-2 bd-highlight d-flex justify-content-center">

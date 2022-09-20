@@ -9,7 +9,7 @@ function Nav({handleClick}) {
     <header >
      <h3> 
      <a data-testid="link" href="/">
-        Home
+        Clear
         </a>
       </h3>
       
