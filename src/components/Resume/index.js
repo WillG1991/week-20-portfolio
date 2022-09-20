@@ -4,17 +4,20 @@ import React from 'react'
 function Resume() {
 
   return (
-    <section className="my-5" >
-      <h2 id="about" class="text-center">Resume</h2>
-      
+<div >
+    <section >
+      <h2 id="about" class="text-center">Who am I?</h2>
       <div className="my-2">
-      <p class="text-white-50">
+      <div class="container text-center borderBox" className="borderBox">
+  <p class="aboutInfo" className="aboutInfo">  <p class="text-white-50">
                             Feel free to check out my work and 
                             <a href="https://startbootstrap.com/theme/grayscale/"> resume</a>
                             !
-                        </p>
+                        </p> </p>
+</div>
       </div>
     </section>
+    </div>
   )
 }
 

@@ -6,14 +6,12 @@ import React from "react";
 function Nav({handleClick}) {
  
  return (
-    <header className="d-flex justify-content-center">
-     <h3> <span role="img" aria-label="camera"> 🏠
-     <h3>
-        <a data-testid="link" href="/">
+    <header >
+     <h3> 
+     <a data-testid="link" href="/">
         Home
         </a>
       </h3>
-     </span> </h3>
       
       <nav>
         <ul className="flex-row">

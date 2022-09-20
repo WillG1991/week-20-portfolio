@@ -1,23 +1,25 @@
 function Contact() {
     return (
-        <section class="contact-form">
-            
+        <section class="contact-form ">
             <h2 class="text-center">Contact Me</h2>
-            <form id="contact-form text-center">
-                <div class="p-2 bd-highlight">
-                    <label htmlFor="name"><h3>Name:</h3></label>
+            <form id="contact-form  ">
+            <div class="borderBox">
+                <div class="p-2 bd-highlight d-flex justify-content-center">
+                    <label htmlFor="name"><h4>Name:</h4></label>
                     <input type="text" name="name" />
                 </div>
-                <div>
-                    <label htmlFor="email"><h3>Email:</h3></label>
+                <div class="p-2 bd-highlight d-flex justify-content-center">
+                    <label htmlFor="email"><h4>Email:</h4></label>
                     <input type="text" name="email" />
                 </div>
-                <div>
-                <label htmlFor="message"><h3>Message:</h3></label>
+                <div class="p-2 bd-highlight d-flex justify-content-center">
+                <label htmlFor="message"><h4>Message:</h4></label>
                     <textarea name="message" row="5" />
                 </div>
-                <button class="btn btn-outline-info" type="submit"><h3>Submit</h3></button>
+                <button class="btn btn-outline-info justify-content-center" type="submit"><h3>Submit</h3></button>
+                </div>
             </form>
+        
         </section>
     )
 }

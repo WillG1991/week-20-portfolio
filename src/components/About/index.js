@@ -4,15 +4,16 @@ import React from 'react'
 function About() {
 
   return (
-    <section className="my-5" >
+    <div >
+    <section >
       <h2 id="about" class="text-center">Who am I?</h2>
-      
       <div className="my-2">
-      <div class="container text-center">
-  <p>  About me stuff blah blah </p>
+      <div class="container text-center borderBox" className="borderBox">
+  <p class="aboutInfo" className="aboutInfo">  About me stuff blah blah </p>
 </div>
       </div>
     </section>
+    </div>
   )
 }
 
