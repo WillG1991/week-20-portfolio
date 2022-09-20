@@ -1,30 +1,27 @@
-import React, { useState } from 'react';
-import Movie from '../Movie/index';
-import Weather from '../Weather/index';
-import Code from '../CodeABR/index'
+import React, { useState } from "react";
+import Movie from "../Movie/index";
+import Weather from "../Weather/index";
+import Code from "../CodeABR/index";
 
 function Portfolio({ handleClick }) {
-  const [currentPage, setCurrentPage] = useState('');
+  const [currentPage, setCurrentPage] = useState("");
 
-    const renderPage = () => {
-      if (currentPage === 'Movie') {
-        return <Movie />
-      }
-      if (currentPage === 'Weather') {
-        return <Weather />
-      }
-      if (currentPage === 'Code') {
-        return <Code />
-      }
+  const renderPage = () => {
+    if (currentPage === "Movie") {
+      return <Movie />;
+    }
+    if (currentPage === "Weather") {
+      return <Weather />;
+    }
+    if (currentPage === "Code") {
+      return <Code />;
+    }
+  };
 
-    };
-
-    const handlePageChange = (page) => setCurrentPage(page);
+  const handlePageChange = (page) => setCurrentPage(page);
 
   return (
     <section className="d-flex justify-content-center">
-     
-
       <div id="about" className="my-2">
         <p>
           <nav>
@@ -37,10 +34,10 @@ function Portfolio({ handleClick }) {
                 >
                   <h2 class="text-center circle">🎬</h2>
                   <h3>
-                      <span role="img" aria-label="camera">
-                        {" "}
-                        Movie-Stream
-                      </span>
+                    <span role="img" aria-label="camera">
+                      {" "}
+                      Movie-Stream
+                    </span>
                   </h3>
                 </span>
               </li>
@@ -52,11 +49,9 @@ function Portfolio({ handleClick }) {
                 >
                   <h2 class="text-center circle">⛅</h2>
                   <h3>
-                    
-                      <span role="img" aria-label="camera">
-                        Weather App
-                      </span>
-                    
+                    <span role="img" aria-label="camera">
+                      Weather App
+                    </span>
                   </h3>
                 </span>
               </li>
@@ -68,11 +63,9 @@ function Portfolio({ handleClick }) {
                 >
                   <h2 class="text-center circle">📁</h2>
                   <h3>
-                    
-                      <span role="img" aria-label="camera">
-                        Code-A-BR{" "}
-                      </span>
-                    
+                    <span role="img" aria-label="camera">
+                      Code-A-BR{" "}
+                    </span>
                   </h3>
                 </span>
               </li>
