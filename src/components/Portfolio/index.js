@@ -21,7 +21,7 @@ function Portfolio({ handleClick }) {
   const handlePageChange = (page) => setCurrentPage(page);
 
   return (
-    <section className="d-flex justify-content-center">
+    <div className="d-flex justify-content-center">
       <div id="about" className="my-2">
         <p>
           <nav>
@@ -75,7 +75,7 @@ function Portfolio({ handleClick }) {
         <div>{renderPage()}</div>
       </div>
       <div></div>
-    </section>
+    </div>
   );
 }
 
