@@ -13,7 +13,7 @@ function About() {
             <div class="container">
               <div class="row">
                 <div class="col">
-                  <img class="selfie" src={Me} alt="BigCo Inc. logo" />
+                  <img class="selfie1" src={Me} alt="BigCo Inc. logo" />
                 </div>
                 <div class="col">
                   <h4>

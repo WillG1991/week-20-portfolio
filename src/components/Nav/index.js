@@ -18,28 +18,32 @@ function Nav({ handleClick }) {
               href="#About"
               onClick={() => handleClick("About")}
             >
-              <h3 class="text-center circle">👨‍🔧</h3>
+              
               <h3>
                 <a data-testid="link" href="#About">
                   <span role="img" aria-label="camera">
+                  <h3 class="text-center circle">👨‍🔧</h3>
                     {" "}
-                    About-Me
+                   <h3>About-Me</h3> 
                   </span>
                 </a>
               </h3>
             </span>
           </li>
+
           <li className="mx-2">
             <span
-              data-testid="portfolio"
-              href="#Portfolio"
+              data-testid="about"
+              href="#About"
               onClick={() => handleClick("Portfolio")}
             >
-              <h3 class="text-center circle">🖥️</h3>
+              
               <h3>
-                <a data-testid="link" href="/">
+                <a data-testid="link" href="#Portfolio">
                   <span role="img" aria-label="camera">
-                    Portfolio
+                  <h3 class="text-center circle">🖥️</h3>
+                    {" "}
+                   <h3>Portfolio</h3> 
                   </span>
                 </a>
               </h3>
@@ -47,15 +51,16 @@ function Nav({ handleClick }) {
           </li>
           <li className="mx-2">
             <span
-              data-testid="resume"
-              href="#Resume"
+              data-testid="about"
               onClick={() => handleClick("Resume")}
             >
-              <h3 class="text-center circle">📄</h3>
+              
               <h3>
-                <a data-testid="link" href="/">
+                <a data-testid="link" href="#Resume">
                   <span role="img" aria-label="camera">
-                    Resume{" "}
+                  <h3 class="text-center circle">📄</h3>
+                    {" "}
+                   <h3>Resume</h3> 
                   </span>
                 </a>
               </h3>
@@ -64,14 +69,15 @@ function Nav({ handleClick }) {
           <li className="mx-2">
             <span
               data-testid="contact"
-              href="#Contact"
               onClick={() => handleClick("Contact")}
             >
-              <h3 class="text-center circle">📞</h3>
+              
               <h3>
-                <a data-testid="link" href="/">
+                <a data-testid="link" href="#Contact">
                   <span role="img" aria-label="camera">
-                    Contact{" "}
+                  <h3 class="text-center circle">📞</h3>
+                    {" "}
+                   <h3>Contact</h3> 
                   </span>
                 </a>
               </h3>
