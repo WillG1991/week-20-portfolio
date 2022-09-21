@@ -5,14 +5,14 @@ function Code() {
   return (
     <section className="my-5">
       <h2 id="about" class="text-center varela-font">
-        Movie-Stream
+        Code A Break
       </h2>
 
       <div className="my-2 borderBox">
         <div class="container">
           <div class="row">
             <div class="col">
-              <img className="selfie" src={CodeBR} alt="Streaming search" />
+              <img className="selfie" src={CodeBR} alt="CodeABreak landing page" />
             </div>
             <div class="col">
               <h4>

@@ -17,6 +17,13 @@ nav ul {
   width: 1074px;
 }
 
+section:hover {
+  transform: scale(1.2);
+  background-size: cover;
+  transition: transform 2s ease;
+  
+}
+
 .borderBoxResume {
   border: 2px solid;
   padding: 20px;
@@ -30,6 +37,8 @@ nav ul {
   height: 156px;
   width: 575px;
 }
+
+
 
 .borderBoxContact {
   border: 2px solid;
@@ -45,19 +54,24 @@ nav ul {
   height: 274px;
 }
 
+
+
 nav li {
   align-content: space-between !important;
   padding: 50px;
 }
 
+
 .flex-row {
   justify-content: center;
 }
+
 .back {
   background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(255, 255, 255, 0)),
     url("../img/background1.svg");
   background-size: cover;
   min-height: 100vh;
+  padding-bottom: 100px;
 }
 
 mx-2 {
@@ -161,6 +175,12 @@ mx-2 {
 .circle {
   animation: pulse 2s infinite;
 }
+.circle:hover {
+  background-color:#ffffff;
+  transition: 0.7s;
+}
+
+
 
 @font-face {
   font-family: varela-round;
@@ -179,6 +199,21 @@ img {
   opacity: 85%;
 }
 
+img:hover {
+  transform: scale(1.2);
+  background-size: cover;
+  transition: transform 2s ease;
+}
+
+input{
+  height: 40px;
+}
+
+
+textarea {
+  height: 80px;
+}
+
 .selfie {
   width: 400px;
   height: 300px;
@@ -186,9 +221,9 @@ img {
   border-radius: 20%;
 }
 
-.btn {
-  justify-content: center;
-}
+
+
+
 
 @keyframes pulse {
   0% {
