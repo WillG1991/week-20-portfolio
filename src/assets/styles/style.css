@@ -7,6 +7,10 @@ a {
   text-decoration: none;
 }
 
+Html,body {
+  overflow-x: hidden;
+}
+
 .forHover {
   font-family: "Varela Round", -apple-system, BlinkMacSystemFont, "Segoe UI",
     Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji",
@@ -426,6 +430,7 @@ textarea {
     line-height: 2.5rem;
     text-orientation: upright;
     writing-mode: vertical-rl;
+    z-index: 999;
   }
 }
 
