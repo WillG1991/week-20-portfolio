@@ -5,7 +5,7 @@ function Nav({ handleClick }) {
   return (
     <header>
       <h5>
-        <a  data-testid="link" href="/">
+        <a  data-testid="link" href="./">
           <p class="forHover"> Clear </p>
         </a>
       </h5>
