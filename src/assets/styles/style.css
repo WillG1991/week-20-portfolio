@@ -284,3 +284,26 @@ textarea {
     width: 100%;
   }
 }
+
+@media screen and (max-width: 400px) {
+  .flex-row {
+    flex-direction:column !important;
+  }
+
+  .flex-row h3 {
+    text-align: center;
+  
+  }
+
+  .borderBoxContact {
+    width: 100%;
+  }
+
+  .borderBoxResume {
+    width: 100%;
+  }
+
+  .borderBox {
+    width: 100%;
+  }
+}
