@@ -13,7 +13,6 @@ function Resume() {
             <p class="aboutInfo" className="aboutInfo">
               {" "}
               <h4 class="text-white-50">
-               
                 <a href="https://drive.google.com/file/d/11wPgvuIJAW4KDKZhj8WzUMHuSoPlzlLP/view?usp=sharing">
                   {" "}
                   <h3> Feel free to view my resume here!</h3>

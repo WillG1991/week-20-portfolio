@@ -5,7 +5,7 @@ function Movie() {
   return (
     <section className="my-5">
       <h2 id="about" class="text-center varela-font">
-        Movie-Stream
+      Search and Stream
       </h2>
 
       <div className="my-2 borderBox">
