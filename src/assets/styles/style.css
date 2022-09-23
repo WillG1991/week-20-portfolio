@@ -283,6 +283,10 @@ textarea {
   .borderBox {
     width: 100%;
   }
+  section:hover {
+    transform: scale(1.0);
+    
+  }
 }
 
 @media screen and (max-width: 768px) {
@@ -296,8 +300,8 @@ textarea {
   }
 
   .div.col {
-    flex-direction: column !important;
-  }
+      flex-direction: column !important;
+    }
 
   .borderBoxContact {
     width: 100%;
@@ -309,6 +313,10 @@ textarea {
 
   .borderBox {
     width: 100%;
+  }
+  section:hover {
+    transform: scale(1.0);
+    
   }
 }
 
@@ -336,5 +344,9 @@ textarea {
   
     .borderBox {
       width: 100%;
+    }
+    section:hover {
+      transform: scale(1.0);
+      
     }
   }
