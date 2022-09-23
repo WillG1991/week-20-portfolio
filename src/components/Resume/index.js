@@ -12,8 +12,8 @@ function Resume() {
             <p class="aboutInfo" className="aboutInfo">
               {" "}
               <h4 class="text-white-50">
-                Feel free to view my resume
-                <a href="https://startbootstrap.com/theme/grayscale/">
+               <b> Feel free to view my resume </b>
+                <a href="https://drive.google.com/file/d/11wPgvuIJAW4KDKZhj8WzUMHuSoPlzlLP/view?usp=sharing">
                   {" "}
                   <u>here </u>
                 </a>
