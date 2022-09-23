@@ -3,8 +3,11 @@ nav ul {
   display: flex;
 }
 
-.forHover {
+a {
+  text-decoration: none;
+}
 
+.forHover {
   font-family: "Varela Round", -apple-system, BlinkMacSystemFont, "Segoe UI",
     Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji",
     "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
@@ -349,7 +352,7 @@ textarea {
   .selfie1:hover {
     transform: scale(1);
   }
-  .forHover {
+  /* .forHover {
     position:fixed;
     right: 80%;
     writing-mode: vertical-rl;
@@ -370,7 +373,7 @@ textarea {
     line-height: 2.5rem;
     text-orientation: upright;
     writing-mode: vertical-rl;
-  }
+  } */
 }
 
 @media screen and (max-width: 480px) {
@@ -439,7 +442,7 @@ textarea {
     transform: scale(1);
   }
 
-  .forHover {
+  /* .forHover {
     position:fixed;
     right: 80%;
     writing-mode: vertical-rl;
@@ -460,5 +463,5 @@ textarea {
     line-height: 2.5rem;
     text-orientation: upright;
     writing-mode: vertical-rl;
-  }
+  } */
 }
