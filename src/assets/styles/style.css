@@ -295,6 +295,10 @@ textarea {
   
   }
 
+  .div.col {
+    flex-direction: column !important;
+  }
+
   .borderBoxContact {
     width: 100%;
   }
@@ -311,6 +315,10 @@ textarea {
 @media screen and (max-width: 480px) {
     .flex-row {
       flex-direction:column !important;
+    }
+
+    .div.col {
+      flex-direction: column !important;
     }
   
     .flex-row h3 {
