@@ -12,7 +12,9 @@ function Movie() {
         <div class="container">
           <div class="row">
             <div class="col">
+            <a href="https://ohdangbro.github.io/Streaming-Search/">
               <img className="selfie" src={Stream} alt="Streaming search" />
+              </a>
             </div>
             <div class="col">
               <h4>

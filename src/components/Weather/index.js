@@ -12,7 +12,9 @@ function Weather() {
         <div class="container">
           <div class="row">
             <div class="col">
+              <a href="https://ohdangbro.github.io/WG-Challenge-Week-6/">
               <img className="selfie" src={WeatherApp} alt="5 day forecast" />
+              </a>
             </div>
             <div class="col">
               <h4>Website that allows user to search 5 day forecast.</h4>
