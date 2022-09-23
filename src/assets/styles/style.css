@@ -279,4 +279,8 @@ textarea {
   .borderBoxResume {
     width: 100%;
   }
+
+  .borderBox {
+    width: 100%;
+  }
 }
