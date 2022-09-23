@@ -20,7 +20,7 @@ function Nav({ handleClick }) {
             >
               
               <h3>
-                <a data-testid="link" href="#About">
+                <a data-testid="link" href="#Main">
                   <span role="img" aria-label="camera">
                   <h3 class="text-center circle">👨‍🔧</h3>
                     {" "}
@@ -39,7 +39,7 @@ function Nav({ handleClick }) {
             >
               
               <h3>
-                <a data-testid="link" href="#Portfolio">
+                <a data-testid="link" href="#Main">
                   <span role="img" aria-label="camera">
                   <h3 class="text-center circle">🖥️</h3>
                     {" "}
@@ -56,7 +56,7 @@ function Nav({ handleClick }) {
             >
               
               <h3>
-                <a data-testid="link" href="#Resume">
+                <a data-testid="link" href="#Main">
                   <span role="img" aria-label="camera">
                   <h3 class="text-center circle">📄</h3>
                     {" "}
@@ -73,7 +73,7 @@ function Nav({ handleClick }) {
             >
               
               <h3>
-                <a data-testid="link" href="#Contact">
+                <a data-testid="link" href="#Main">
                   <span role="img" aria-label="camera">
                   <h3 class="text-center circle">📞</h3>
                     {" "}

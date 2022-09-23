@@ -33,7 +33,7 @@ function App() {
     <div className="back">
       <Hero></Hero>
       <Nav currentPage={currentPage} handleClick={handlePageChange}></Nav>
-      <main>{renderPage()}</main>
+      <main id="Main">{renderPage()}</main>
     </div>
   );
 }

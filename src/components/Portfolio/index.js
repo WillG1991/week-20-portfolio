@@ -29,7 +29,7 @@ function Portfolio({ handleClick }) {
               <li className="mx-2">
                 <span
                   data-testid="movie"
-                  href="#Movie"
+                  href="#Main2"
                   onClick={() => handlePageChange("Movie")}
                 >
                   <h2 class="text-center circle">🎬</h2>
@@ -44,7 +44,7 @@ function Portfolio({ handleClick }) {
               <li className="mx-2">
                 <span
                   data-testid="portfolio"
-                  href="#Portfolio"
+                  href="#Main2"
                   onClick={() => handlePageChange("Weather")}
                 >
                   <h2 class="text-center circle">⛅</h2>
@@ -58,12 +58,12 @@ function Portfolio({ handleClick }) {
               <li className="mx-2">
                 <span
                   data-testid="code"
-                  href="#Code"
+                  href="#Main2"
                   onClick={() => handlePageChange("Code")}
                 >
                   <h2 class="text-center circle">📁</h2>
                   <h3>
-                    <span role="img" aria-label="camera" id="#codeabr">
+                    <span href="https://codeabreak.herokuapp.com/" role="img" aria-label="camera" id="#codeabr">
                       Code-A-BR{" "}
                     </span>
                   </h3>
