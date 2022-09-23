@@ -18,8 +18,7 @@ function Movie() {
             </div>
             <div class="col">
               <h4>
-                This is a search engine that will find availability of sites to
-                stream a specific show or movie at.
+                This website allows a user to search a movie or show to see what platform it is currently being streamed on. 
               </h4>
             </div>
           </div>
