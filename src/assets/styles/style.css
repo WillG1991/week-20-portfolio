@@ -52,6 +52,13 @@ section:hover {
   padding: 5px;
   width: 622px;
   height: 274px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.borderBoxContact label{
+  display: block;
 }
 
 
@@ -219,6 +226,7 @@ input{
 
 textarea {
   height: 80px;
+  width: 100%;
 }
 
 .selfie {
@@ -251,5 +259,24 @@ textarea {
   100% {
     transform: scale(1.2);
     box-shadow: 0 0 0 0;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .flex-row {
+    flex-direction:column !important;
+  }
+
+  .flex-row h3 {
+    text-align: center;
+  
+  }
+
+  .borderBoxContact {
+    width: 100%;
+  }
+
+  .borderBoxResume {
+    width: 100%;
   }
 }

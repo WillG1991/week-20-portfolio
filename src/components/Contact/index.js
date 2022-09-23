@@ -23,7 +23,7 @@ function Contact() {
             <textarea name="message" row="5" />
           </div>
           <button
-            class="btn btn-outline-info "
+            class="btn btn-outline-info mt-4 "
             type="submit"
           >
             <h3>Submit</h3>
