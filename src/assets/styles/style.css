@@ -283,10 +283,7 @@ textarea {
   .borderBox {
     width: 100%;
   }
-  section:hover {
-    transform: scale(1.0);
-    
-  }
+  
 }
 
 @media screen and (max-width: 768px) {
@@ -313,10 +310,6 @@ textarea {
 
   .borderBox {
     width: 100%;
-  }
-  section:hover {
-    transform: scale(1.0);
-    
   }
 }
 
@@ -345,8 +338,13 @@ textarea {
     .borderBox {
       width: 100%;
     }
+  }
+  @media screen and (min-width: 991px) {
     section:hover {
-      transform: scale(1.0);
-      
+  transform: scale(1);
+  background-size: cover;
+  transition: transform 2s ease;
     }
+
+    
   }
