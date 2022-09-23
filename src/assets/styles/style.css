@@ -4,19 +4,24 @@ nav ul {
 }
 
 .forHover {
-    font-family: "Varela Round", -apple-system, BlinkMacSystemFont, "Segoe UI",
+  position: fixed;
+  right: 80%;
+  text-orientation: upright;
+  writing-mode: vertical-rl;
+  font-family: "Varela Round", -apple-system, BlinkMacSystemFont, "Segoe UI",
     Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji",
     "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   letter-spacing: 0.8rem;
   padding: 40px;
-  background: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, .2));
+  background: linear-gradient(
+    rgba(255, 255, 255, 0.9),
+    rgba(255, 255, 255, 0.2)
+  );
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
   background-clip: text;
-  font-size: .5rem;
+  font-size: 0.5rem;
   line-height: 2.5rem;
-  
-    
 }
 
 .borderBox {
@@ -37,7 +42,6 @@ section:hover {
   transform: scale(1.2);
   background-size: cover;
   transition: transform 2s ease;
-  
 }
 
 .borderBoxResume {
@@ -53,8 +57,6 @@ section:hover {
   height: 156px;
   width: 575px;
 }
-
-
 
 .borderBoxContact {
   border: 2px solid;
@@ -73,17 +75,14 @@ section:hover {
   align-items: center;
 }
 
-.borderBoxContact label{
+.borderBoxContact label {
   display: block;
 }
-
-
 
 nav li {
   align-content: space-between !important;
   padding: 50px;
 }
-
 
 .flex-row {
   justify-content: center;
@@ -160,8 +159,8 @@ h3 {
 }
 
 h3:hover {
-  background-color:#ffffff;
-  transition: 0.7s; 
+  background-color: #ffffff;
+  transition: 0.7s;
 }
 
 h4 {
@@ -187,7 +186,10 @@ h5 {
   font-size: 2rem;
   letter-spacing: 0.8rem;
   padding: 40px;
-  background: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, .2));
+  background: linear-gradient(
+    rgba(255, 255, 255, 0.9),
+    rgba(255, 255, 255, 0.2)
+  );
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
   background-clip: text;
@@ -204,13 +206,9 @@ mx-2 {
   animation: pulse 2s infinite;
 }
 .circle:hover {
-  background-color:#ffffff;
+  background-color: #ffffff;
   transition: 0.7s;
 }
-
-
-
-
 
 @font-face {
   font-family: varela-round;
@@ -235,10 +233,9 @@ img {
   transition: transform 2s ease;
 }
 
-input{
+input {
   height: 40px;
 }
-
 
 textarea {
   height: 80px;
@@ -259,10 +256,6 @@ textarea {
   border-radius: 20%;
 }
 
-
-
-
-
 @keyframes pulse {
   0% {
     transform: scale(1.2);
@@ -280,12 +273,11 @@ textarea {
 
 @media screen and (max-width: 1000px) {
   .flex-row {
-    flex-direction:column !important;
+    flex-direction: column !important;
   }
 
   .flex-row h3 {
     text-align: center;
-  
   }
 
   .borderBoxContact {
@@ -305,22 +297,20 @@ textarea {
   .selfie1:hover {
     transform: scale(1);
   }
-  
 }
 
 @media screen and (max-width: 768px) {
   .flex-row {
-    flex-direction:column !important;
+    flex-direction: column !important;
   }
 
   .flex-row h3 {
     text-align: center;
-  
   }
 
   .div.col {
-      flex-direction: column !important;
-    }
+    flex-direction: column !important;
+  }
 
   .borderBoxContact {
     width: 100%;
@@ -342,65 +332,65 @@ textarea {
 }
 
 @media screen and (max-width: 480px) {
-    .flex-row {
-      flex-direction:column !important;
-    }
-
-    .div.col {
-      flex-direction: column !important;
-    }
-  
-    .flex-row h3 {
-      text-align: center;
-    
-    }
-  
-    .borderBoxContact {
-      width: 100%;
-    }
-  
-    .borderBoxResume {
-      width: 100%;
-    }
-  
-    .borderBox {
-      width: 100%;
-    }
-    section:hover {
-      transform: scale(1);
-    }
-    .selfie1:hover {
-      transform: scale(1);
-    }
+  .flex-row {
+    flex-direction: column !important;
   }
-  @media screen and (min-width: 991px) {
-    section:hover {
-  transform: scale(1);
-  background-size: cover;
-  transition: transform 2s ease;
-    }
 
-    .selfie1:hover {
-      transform: scale(1);
-    }
+  .div.col {
+    flex-direction: column !important;
+  }
 
-    .forHover {
-      position: fixed;
-      right: 80%;
-      font-family: "Varela Round", -apple-system, BlinkMacSystemFont, "Segoe UI",
+  .flex-row h3 {
+    text-align: center;
+  }
+
+  .borderBoxContact {
+    width: 100%;
+  }
+
+  .borderBoxResume {
+    width: 100%;
+  }
+
+  .borderBox {
+    width: 100%;
+  }
+  section:hover {
+    transform: scale(1);
+  }
+  .selfie1:hover {
+    transform: scale(1);
+  }
+}
+@media screen and (min-width: 991px) {
+  section:hover {
+    transform: scale(1);
+    background-size: cover;
+    transition: transform 2s ease;
+  }
+
+  .selfie1:hover {
+    transform: scale(1);
+  }
+
+  .forHover {
+    position: fixed;
+    right: 80%;
+    font-family: "Varela Round", -apple-system, BlinkMacSystemFont, "Segoe UI",
       Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji",
       "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
     letter-spacing: 0.8rem;
     padding: 40px;
-    background: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, .2));
+    background: linear-gradient(
+      rgba(255, 255, 255, 0.9),
+      rgba(255, 255, 255, 0.2)
+    );
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
     background-clip: text;
-    font-size: .5rem;
+    font-size: 0.5rem;
     line-height: 2.5rem;
     text-orientation: upright;
     writing-mode: vertical-rl;
-      
   }
-    
-  }
+}
