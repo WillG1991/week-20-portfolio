@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/week-20-portfolio/static/css/main.b80a914e.css",
-    "main.js": "/week-20-portfolio/static/js/main.d665b870.js",
+    "main.css": "/week-20-portfolio/static/css/main.d76ca55d.css",
+    "main.js": "/week-20-portfolio/static/js/main.8927f3dc.js",
     "static/js/787.1ed0c42c.chunk.js": "/week-20-portfolio/static/js/787.1ed0c42c.chunk.js",
     "static/media/stream.png": "/week-20-portfolio/static/media/stream.9134592cd63b2d1b5396.png",
     "static/media/me.JPG": "/week-20-portfolio/static/media/me.5ed00ac70ec1f96ae852.JPG",
@@ -10,12 +10,12 @@
     "static/media/VarelaRound-Regular.ttf": "/week-20-portfolio/static/media/VarelaRound-Regular.411276fd0f0ace860019.ttf",
     "static/media/background1.svg": "/week-20-portfolio/static/media/background1.5ee6ec16c71c54233e9e.svg",
     "index.html": "/week-20-portfolio/index.html",
-    "main.b80a914e.css.map": "/week-20-portfolio/static/css/main.b80a914e.css.map",
-    "main.d665b870.js.map": "/week-20-portfolio/static/js/main.d665b870.js.map",
+    "main.d76ca55d.css.map": "/week-20-portfolio/static/css/main.d76ca55d.css.map",
+    "main.8927f3dc.js.map": "/week-20-portfolio/static/js/main.8927f3dc.js.map",
     "787.1ed0c42c.chunk.js.map": "/week-20-portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b80a914e.css",
-    "static/js/main.d665b870.js"
+    "static/css/main.d76ca55d.css",
+    "static/js/main.8927f3dc.js"
   ]
 }
