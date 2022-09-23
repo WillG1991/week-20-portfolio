@@ -13,9 +13,10 @@ function Resume() {
             <p class="aboutInfo" className="aboutInfo">
               {" "}
               <h4 class="text-white-50">
-               <h3> Feel free to view my resume <b>here!</b></h3>
+               
                 <a href="https://drive.google.com/file/d/11wPgvuIJAW4KDKZhj8WzUMHuSoPlzlLP/view?usp=sharing">
                   {" "}
+                  <h3> Feel free to view my resume here!</h3>
                 </a>
                 {/* <p></p>or download a pdf{""}
                 <a href="../../../public/Resume.pdf"> here!</a> */}
