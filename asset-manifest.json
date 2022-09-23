@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/week-20-portfolio/static/css/main.5df0a014.css",
+    "main.css": "/week-20-portfolio/static/css/main.465e28fb.css",
     "main.js": "/week-20-portfolio/static/js/main.c625f50d.js",
     "static/js/787.1ed0c42c.chunk.js": "/week-20-portfolio/static/js/787.1ed0c42c.chunk.js",
     "static/media/stream.png": "/week-20-portfolio/static/media/stream.9134592cd63b2d1b5396.png",
@@ -10,12 +10,12 @@
     "static/media/VarelaRound-Regular.ttf": "/week-20-portfolio/static/media/VarelaRound-Regular.411276fd0f0ace860019.ttf",
     "static/media/background1.svg": "/week-20-portfolio/static/media/background1.5ee6ec16c71c54233e9e.svg",
     "index.html": "/week-20-portfolio/index.html",
-    "main.5df0a014.css.map": "/week-20-portfolio/static/css/main.5df0a014.css.map",
+    "main.465e28fb.css.map": "/week-20-portfolio/static/css/main.465e28fb.css.map",
     "main.c625f50d.js.map": "/week-20-portfolio/static/js/main.c625f50d.js.map",
     "787.1ed0c42c.chunk.js.map": "/week-20-portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.5df0a014.css",
+    "static/css/main.465e28fb.css",
     "static/js/main.c625f50d.js"
   ]
 }
