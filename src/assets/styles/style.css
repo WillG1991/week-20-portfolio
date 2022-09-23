@@ -3,6 +3,23 @@ nav ul {
   display: flex;
 }
 
+.forHover {
+    position: fixed;
+    top: 25px;
+    font-family: "Varela Round", -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji",
+    "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  letter-spacing: 0.8rem;
+  padding: 40px;
+  background: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, .2));
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+  font-size: .5rem;
+  line-height: 2.5rem;
+    
+}
+
 .borderBox {
   border: 2px solid;
   padding: 20px;

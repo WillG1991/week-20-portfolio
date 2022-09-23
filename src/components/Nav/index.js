@@ -5,7 +5,7 @@ function Nav({ handleClick }) {
   return (
     <header>
       <h5>
-        <a  data-testid="link" href="https://ohdangbro.github.io/week-20-portfolio">
+        <a data-testid="link" href="https://ohdangbro.github.io/week-20-portfolio">
           <p class="forHover"> Clear </p>
         </a>
       </h5>
