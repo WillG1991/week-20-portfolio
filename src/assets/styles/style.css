@@ -285,7 +285,7 @@ textarea {
   }
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 768px) {
   .flex-row {
     flex-direction:column !important;
   }
@@ -296,14 +296,14 @@ textarea {
   }
 
   .borderBoxContact {
-    width: 50%;
+    width: 100%;
   }
 
   .borderBoxResume {
-    width: 50%;
+    width: 100%;
   }
 
   .borderBox {
-    width: 50%;
+    width: 100%;
   }
 }
