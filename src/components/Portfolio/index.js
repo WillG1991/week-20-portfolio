@@ -27,52 +27,53 @@ function Portfolio({ handleClick }) {
           <nav>
             <ul className="flex-row">
               <li className="mx-2">
-                <span
+                
+                <a
                   data-testid="movie"
-                  href="#Main2"
+                  href="#Portmain"
                   onClick={() => handlePageChange("Movie")}
                 >
                   <h2 class="text-center circle">🎬</h2>
                   <h3>
-                    <span role="img" aria-label="camera">
+                    <a role="img" aria-label="camera">
                       {" "}
                       Movie-Stream
-                    </span>
+                    </a>
                   </h3>
-                </span>
+                </a>
               </li>
               <li className="mx-2">
-                <span
+                <a
                   data-testid="portfolio"
-                  href="#Main2"
+                  href="#Portmain"
                   onClick={() => handlePageChange("Weather")}
                 >
                   <h2 class="text-center circle">⛅</h2>
                   <h3>
-                    <span role="img" aria-label="camera">
+                    <a role="img" aria-label="camera">
                       Weather App
-                    </span>
+                    </a>
                   </h3>
-                </span>
+                </a>
               </li>
               <li className="mx-2">
-                <span
+                <a
                   data-testid="code"
-                  href="#Main2"
+                  href="#Portmain"
                   onClick={() => handlePageChange("Code")}
                 >
                   <h2 class="text-center circle">📁</h2>
                   <h3>
-                    <span href="https://codeabreak.herokuapp.com/" role="img" aria-label="camera" id="#codeabr">
+                    <a href="https://codeabreak.herokuapp.com/" role="img" aria-label="camera" id="#codeabr">
                       Code-A-BR{" "}
-                    </span>
+                    </a>
                   </h3>
-                </span>
+                </a>
               </li>
             </ul>
           </nav>
         </p>
-        <div>{renderPage()}</div>
+        <div id="Portmain">{renderPage()}</div>
       </div>
       <div></div>
     </div>
