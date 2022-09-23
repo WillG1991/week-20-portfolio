@@ -17,10 +17,7 @@ function About() {
                 </div>
                 <div class="col">
                   <h4>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt ut labore et dolore magna
-                    aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-                    ullamco laboris nisi ut.
+                  Organized and hard-working individual looking to join the field of web development and engineering. Sparked by a hobby picked up during the "stay at home” era of the pandemic and looking to leverage new found skills into a career.
                   </h4>
                 </div>
               </div>

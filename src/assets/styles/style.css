@@ -286,6 +286,9 @@ textarea {
   section:hover {
     transform: scale(1);
   }
+  .selfie1:hover {
+    transform: scale(1);
+  }
   
 }
 
@@ -315,6 +318,9 @@ textarea {
     width: 100%;
   }
   section:hover {
+    transform: scale(1);
+  }
+  .selfie1:hover {
     transform: scale(1);
   }
 }
@@ -347,6 +353,9 @@ textarea {
     section:hover {
       transform: scale(1);
     }
+    .selfie1:hover {
+      transform: scale(1);
+    }
   }
   @media screen and (min-width: 991px) {
     section:hover {
@@ -355,5 +364,8 @@ textarea {
   transition: transform 2s ease;
     }
 
+    .selfie1:hover {
+      transform: scale(1);
+    }
     
   }
