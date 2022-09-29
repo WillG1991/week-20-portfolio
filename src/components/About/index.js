@@ -17,7 +17,7 @@ function About() {
                 </div>
                 <div class="col">
                   <h4>
-                  Organized and hard-working individual looking to join the field of web development and engineering. Sparked by a hobby picked up during the "stay at home” era of the pandemic and looking to leverage new found skills into a career.
+                  Hello! I am Will. A New Jersey native with a knack for making things beautiful. With a certification from Rutgets and a collaborative approach - I am equipped to make all your digital portfolio dreams a reality. Some of my hobbies include photography, farming, landscaping + more! Leaning in to these hobbies has ultimately inspired my career path of capturing the beauty in everything through a story-telling lens. I look forward to working with you to create the platform to tell your story. 
                   </h4>
                 </div>
               </div>

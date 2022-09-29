@@ -37,7 +37,7 @@ function Portfolio({ handleClick }) {
                   <h3>
                     <a role="img" aria-label="camera">
                       {" "}
-                      Search-n-Stream
+                      Search and Stream
                     </a>
                   </h3>
                 </a>
