@@ -33,7 +33,7 @@ function Portfolio({ handleClick }) {
                   href="#Portmain"
                   onClick={() => handlePageChange("Movie")}
                 >
-                  <h2 class="text-center circle">🎬</h2>
+                  <h2 class="text-center circle">🔎</h2>
                   <h3>
                     <a role="img" aria-label="camera">
                       {" "}
@@ -48,7 +48,7 @@ function Portfolio({ handleClick }) {
                   href="#Portmain"
                   onClick={() => handlePageChange("Weather")}
                 >
-                  <h2 class="text-center circle">⛅</h2>
+                  <h2 class="text-center circle">🎥</h2>
                   <h3>
                     <a role="img" aria-label="camera">
                       MovieSwipe
