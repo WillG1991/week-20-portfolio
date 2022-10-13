@@ -51,7 +51,7 @@ function Portfolio({ handleClick }) {
                   <h2 class="text-center circle">⛅</h2>
                   <h3>
                     <a role="img" aria-label="camera">
-                      Weather App
+                      MovieSwipe
                     </a>
                   </h3>
                 </a>
