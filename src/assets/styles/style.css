@@ -470,3 +470,21 @@ textarea {
     writing-mode: vertical-rl;
   } */
 }
+
+@media (min-width: 500px) {
+  .show-mobile {
+    display: none;
+  }
+  .hidden-mobile {
+    display: block;
+  }
+}
+
+@media (max-width: 501px) {
+  .show-mobile {
+    display: block;
+  }
+  .hidden-mobile {
+    display: none;
+  }
+}

@@ -1,5 +1,5 @@
 import React from "react";
-import WeatherApp from "../../assets/img/weather.png";
+import WeatherApp from "../../assets/img/MovieSwipe.png";
 
 function Weather() {
   return (
@@ -12,12 +12,12 @@ function Weather() {
         <div class="container">
           <div class="row">
             <div class="col">
-              <a href="https://ohdangbro.github.io/WG-Challenge-Week-6/">
+              <a href="https://movie-swipe-application.herokuapp.com/">
               <img className="selfie" src={WeatherApp} alt="5 day forecast" />
               </a>
             </div>
             <div class="col">
-              <h4>Website that allows user to search 5 day forecast.</h4>
+              <h4>Movie site that allows users to swipe through different movies and save them dependent on swipe direction. </h4>
             </div>
           </div>
         </div>

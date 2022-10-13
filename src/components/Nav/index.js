@@ -3,7 +3,7 @@ import React from "react";
 // Defines handleclick
 function Nav({ handleClick }) {
   return (
-    <header>
+    <header class="hidden-mobile">
       <h5>
         <a data-testid="link" href="https://ohdangbro.github.io/week-20-portfolio">
           <p class="forHover"> Clear </p>
@@ -86,6 +86,8 @@ function Nav({ handleClick }) {
         </ul>
       </nav>
     </header>
+    
+    
   );
 }
 
