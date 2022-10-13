@@ -1,11 +1,11 @@
 import React from "react";
-import WeatherApp from "../../assets/img/MovieSwipe.png";
+import MovieSwipe from "../../assets/img/MovieSwipe.png";
 
 function Weather() {
   return (
     <section className="my-5">
       <h2 id="about" class="text-center">
-        5 Day Forecast
+        Movie Swipe
       </h2>
 
       <div className="my-2 borderBox">
@@ -13,7 +13,7 @@ function Weather() {
           <div class="row">
             <div class="col">
               <a href="https://movie-swipe-application.herokuapp.com/">
-              <img className="selfie" src={WeatherApp} alt="5 day forecast" />
+              <img className="selfie" src={MovieSwipe} alt="5 day forecast" />
               </a>
             </div>
             <div class="col">
