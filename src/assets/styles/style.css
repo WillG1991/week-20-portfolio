@@ -255,8 +255,8 @@ textarea {
 }
 
 .selfie1 {
-  width: 400px;
-  height: 300px;
+  width: 500px;
+  height: 500px;
   padding: 40px;
   border-radius: 20%;
 }
@@ -471,7 +471,7 @@ textarea {
   } */
 }
 
-@media (min-width: 500px) {
+@media (min-width: 700px) {
   .show-mobile {
     display: none;
   }
@@ -480,7 +480,7 @@ textarea {
   }
 }
 
-@media (max-width: 501px) {
+@media (max-width: 300px) {
   .show-mobile {
     display: block;
   }

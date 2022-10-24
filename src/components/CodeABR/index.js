@@ -12,7 +12,7 @@ function Code() {
         <div class="container">
           <div class="row">
             <div class="col">
-              <a href="https://codeabreak.herokuapp.com/">
+              <a target="_blank" href="https://codeabreak.herokuapp.com/">
               <img className="selfie" src={CodeBR} alt="CodeABreak landing page" href="https://codeabreak.herokuapp.com/" />
               </a>
             </div>
