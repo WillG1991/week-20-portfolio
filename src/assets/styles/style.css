@@ -118,15 +118,13 @@ h1 {
   font-family: "Varela Round", -apple-system, BlinkMacSystemFont, "Segoe UI",
     Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji",
     "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-  font-size: 2.5rem;
+  font-size: 7rem;
   line-height: 12.5rem;
   letter-spacing: 0.8rem;
   background: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0));
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
   background-clip: text;
-  font-size: 6.5rem;
-  line-height: 6.5rem;
   letter-spacing: 0.8rem;
   padding: 5%;
 }
@@ -186,21 +184,34 @@ h4 {
 
 h5 {
   font-family: "Varela Round", -apple-system, BlinkMacSystemFont, "Segoe UI",
-    Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji",
-    "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-  font-size: 2rem;
-  letter-spacing: 0.8rem;
-  padding: 40px;
-  background: linear-gradient(
-    rgba(255, 255, 255, 0.9),
-    rgba(255, 255, 255, 0.2)
-  );
-  -webkit-text-fill-color: transparent;
-  -webkit-background-clip: text;
-  background-clip: text;
+  Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji",
+  "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+font-size: 1.5rem;
+line-height: 13.5rem;
+letter-spacing: 0.8rem;
+background: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0));
+-webkit-text-fill-color: transparent;
+-webkit-background-clip: text;
+background-clip: text;
 
-  font-size: 1rem;
-  line-height: 2.5rem;
+font-size: 1rem;
+line-height: 2.5rem;
+}
+
+h6 {
+  font-family: "Varela Round", -apple-system, BlinkMacSystemFont, "Segoe UI",
+  Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji",
+  "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+font-size: 1.5rem;
+line-height: 13.5rem;
+letter-spacing: 0.2rem;
+background: linear-gradient(rgba(255, 255, 255, 1.2), rgba(255, 255, 255, .8));
+-webkit-text-fill-color: transparent;
+-webkit-background-clip: text;
+background-clip: text;
+
+font-size: 1rem;
+line-height: 2.5rem;
 }
 
 mx-2 {

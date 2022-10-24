@@ -17,10 +17,10 @@ function Code() {
               </a>
             </div>
             <div class="col">
-              <h4>
+              <h6>
                 Social media site allowing users to find relaxing resources for
                 coding.
-              </h4>
+              </h6>
             </div>
           </div>
         </div>

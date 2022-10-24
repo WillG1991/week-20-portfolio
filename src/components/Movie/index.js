@@ -17,9 +17,9 @@ function Movie() {
               </a>
             </div>
             <div class="col">
-              <h4>
+              <h6>
                 This website allows a user to search a movie or show to see what platform it is currently being streamed on. 
-              </h4>
+              </h6>
             </div>
           </div>
         </div>

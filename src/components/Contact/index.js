@@ -28,20 +28,42 @@ export const Contact = () => {
 };
 
 return (
+ <section class="contact-form ">
+<h2 class="text-center varela-font">Contact Me</h2>
 <form ref={form} onSubmit={sendEmail}>
-  <label>Name</label>
-  <input id="input_username" type="text" name="user_name" onChange={event => setUserName(event.target.value)}
+  <div class="borderBoxContact">
+    <div class="p-2 bd-highlight  justify-content-center">
+      <label htmlFor="name">
+        <h4>Name:</h4>
+      </label>
+      <input id="input_username" type="text" name="from_name" onChange={event => setUserName(event.target.value)}
           value={input_username} />
-  <label>Email</label>
-  <input id="input_email" type="email" name="user_email" onChange={event => setEmail(event.target.value)}
+    </div>
+    <div class="p-2 bd-highlight  ">
+      <label htmlFor="email">
+        <h4>Email:</h4>
+      </label>
+      <input id="input_email" type="email" name="reply_to" onChange={event => setEmail(event.target.value)}
           value={input_email} />
-  <label>Message</label>
-  <textarea name="message" onChange={event => setMessage(event.target.value)}
+    </div>
+    <div class="p-2 bd-highlight ">
+      <label htmlFor="message">
+        <h4>Message:</h4>
+      </label>
+      <textarea name="message" onChange={event => setMessage(event.target.value)}
           value={input_message} />
-  <input id="input_message" type="submit" value="Send" />
+  <input class="btn btn-outline-info mt-4 "
+      id="input_message" type="submit" value="Submit" />
+    </div>
+   
+     
+   
+  </div>
 </form>
+</section>
 );
-};
-
+}
 
 export default Contact;
+
+

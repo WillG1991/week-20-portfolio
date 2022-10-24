@@ -17,7 +17,7 @@ function Weather() {
               </a>
             </div>
             <div class="col">
-              <h4>Movie site that allows users to swipe through different movies and save them dependent on swipe direction. </h4>
+              <h6>Movie site that allows users to swipe through different movies and save them dependent on swipe direction. </h6>
             </div>
           </div>
         </div>
