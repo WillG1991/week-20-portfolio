@@ -22,7 +22,7 @@ function Nav({ handleClick }) {
               <h3>
                 <a data-testid="link" href="#Main">
                   <span role="img" aria-label="camera">
-                  <h3 class="text-center circle">👨‍🔧</h3>
+                  <h3 class="largeIcon text-center circle">👨‍🔧</h3>
                     {" "}
                    <h3>About-Me</h3> 
                   </span>
@@ -41,7 +41,7 @@ function Nav({ handleClick }) {
               <h3>
                 <a data-testid="link" href="#Main">
                   <span role="img" aria-label="camera">
-                  <h3 class="text-center circle">🖥️</h3>
+                  <h3 class="largeIcon text-center circle">🖥️</h3>
                     {" "}
                    <h3>Portfolio</h3> 
                   </span>
@@ -58,7 +58,7 @@ function Nav({ handleClick }) {
               <h3>
                 <a data-testid="link" href="#Main">
                   <span role="img" aria-label="camera">
-                  <h3 class="text-center circle">📄</h3>
+                  <h3 class="largeIcon text-center circle">📄</h3>
                     {" "}
                    <h3>Resume</h3> 
                   </span>
@@ -75,7 +75,7 @@ function Nav({ handleClick }) {
               <h3>
                 <a data-testid="link" href="#Main">
                   <span role="img" aria-label="camera">
-                  <h3 class="text-center circle">📞</h3>
+                  <h3 class="largeIcon text-center circle">📞</h3>
                     {" "}
                    <h3>Contact</h3> 
                   </span>

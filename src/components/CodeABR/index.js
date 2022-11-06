@@ -18,8 +18,8 @@ function Code() {
             </div>
             <div class="col">
               <h6>
-                Social media site allowing users to find relaxing resources for
-                coding.
+                Code-A-Break is a social media site allowing users to find relaxing resources for
+                coding. A user is able to log in and post or comment links for breaks during coding sessions. It was built using HTML, CSS, Bulma, SQL, Insomnia, Express.
               </h6>
             </div>
           </div>

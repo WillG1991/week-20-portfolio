@@ -17,7 +17,7 @@ function Weather() {
               </a>
             </div>
             <div class="col">
-              <h6>Movie site that allows users to swipe through different movies and save them dependent on swipe direction. </h6>
+              <h6>MovieSwipe is a full stack MERN application that allows users to swipe through movies and save favorites to their profile. It was built using HTML, CSS, Bootstrap, Javascript, Express, mongodb, GraphQl and React. </h6>
             </div>
           </div>
         </div>

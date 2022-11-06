@@ -1,4 +1,5 @@
 import React from "react";
+import resume from "../../assets/img/resume.jpg"
 
 
 function Resume() {
@@ -13,11 +14,12 @@ function Resume() {
             <p class="aboutInfo" className="aboutInfo">
               {" "}
               <h4 class="text-white-50">
-                <a target="_blank" href="https://drive.google.com/file/d/11wPgvuIJAW4KDKZhj8WzUMHuSoPlzlLP/view?usp=sharing">
+                <a target="_blank" href="https://drive.google.com/file/d/1fWYK1433mtOgu3g9hPRPHRZ-tGwPJjRq/view?usp=share_link">
                   {" "}
-                  <h3> Feel free to view my resume here!</h3>
+                  <h3> Feel free to view my resume by clicking the image below! <div class="centeredText"><img className="selfie" src={resume} alt="resume" /></div></h3>
+                  
                 </a>
-                {/* <p></p>or download a pdf{""}
+                {/* <p>or download a pdf{""}</p>
                 <a href="../../../public/Resume.pdf"> here!</a> */}
               </h4>{" "}
             </p>

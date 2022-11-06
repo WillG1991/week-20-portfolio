@@ -18,7 +18,7 @@ function Movie() {
             </div>
             <div class="col">
               <h6>
-                This website allows a user to search a movie or show to see what platform it is currently being streamed on. 
+                This website allows a user to search a movie or show to see what platform it is currently being streamed on. It was built using two API's, node, express, javascript, HTML and CSS.
               </h6>
             </div>
           </div>

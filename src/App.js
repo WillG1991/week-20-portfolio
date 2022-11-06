@@ -28,6 +28,8 @@ function App() {
     }
   };
 
+  
+
   const handlePageChange = (page) => setCurrentPage(page);
   return (
     <div className="back">
