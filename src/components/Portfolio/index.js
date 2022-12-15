@@ -2,6 +2,8 @@ import React, { useState } from "react";
 import Movie from "../Movie/index";
 import Weather from "../Weather/index";
 import Code from "../CodeABR/index";
+import ReikiHealing from "../ReikiHealing";
+import Apiary from "../GehrkeApiaries";
 
 function Portfolio({ handleClick }) {
   const [currentPage, setCurrentPage] = useState("");
@@ -15,6 +17,12 @@ function Portfolio({ handleClick }) {
     }
     if (currentPage === "Code") {
       return <Code />;
+    }
+    if (currentPage === "Reiki") {
+      return <ReikiHealing />;
+    }
+    if (currentPage === "Apiary") {
+      return <Apiary />;
     }
   };
 
@@ -66,6 +74,34 @@ function Portfolio({ handleClick }) {
                   <h3>
                     <a href="https://codeabreak.herokuapp.com/" role="img" aria-label="camera" id="#codeabr">
                       Code-A-BR{" "}
+                    </a>
+                  </h3>
+                </a>
+              </li>
+              <li className="mx-2">
+                <a
+                  data-testid="code"
+                  href="#Portmain"
+                  onClick={() => handlePageChange("Reiki")}
+                >
+                  <h2 class="largeIcon text-center circle">🧘🏽</h2>
+                  <h3>
+                    <a href="www.christinaserafina.com" role="img" aria-label="camera" id="#reiki">
+                      ReikiHealing{" "}
+                    </a>
+                  </h3>
+                </a>
+              </li>
+              <li className="mx-2">
+                <a
+                  data-testid="code"
+                  href="#Portmain"
+                  onClick={() => handlePageChange("Apiary")}
+                >
+                  <h2 class="largeIcon text-center circle">🐝</h2>
+                  <h3>
+                    <a href="www.gehrkeapiaries.com" role="img" aria-label="camera" id="#apiary">
+                     Gehrke Apiaries{" "}
                     </a>
                   </h3>
                 </a>
