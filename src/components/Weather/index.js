@@ -12,7 +12,7 @@ function Weather() {
         <div class="container">
           <div class="row">
             <div class="col">
-              <a target="_blank" href="https://movie-swipe-application.herokuapp.com/">
+              <a target="_blank" href="https://github.com/rrvallar/Project-3">
               <img className="selfie" src={MovieSwipe} alt="5 day forecast" />
               </a>
             </div>
