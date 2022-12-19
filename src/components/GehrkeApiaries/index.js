@@ -12,14 +12,13 @@ function Apiary() {
         <div class="container">
           <div class="row">
             <div class="col">
-            <a target="_blank" href="www.gehrkeapiaries.com">
+            <a target="_blank" href="http://www.gehrkeapiaries.com" rel="noreferrer">
               <img className="selfie" src={GehrkeApiariesImage} alt="apiary site logo" />
               </a>
             </div>
             <div class="col">
               <h6>
-                This website allows a user to search a movie or show to see what platform it is currently being streamed on. It was built using two API's, node, express, javascript, HTML and CSS.
-              </h6>
+React built website built using custom CSS styling. Minor React MUI components.               </h6>
             </div>
           </div>
         </div>

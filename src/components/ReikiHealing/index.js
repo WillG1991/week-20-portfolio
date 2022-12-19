@@ -12,7 +12,7 @@ function ReikiHealing() {
         <div class="container">
           <div class="row">
             <div class="col">
-            <a target="_blank" href="www.christinaserafina.com">
+            <a target="blank" href="http://www.christinaserafina.com">
               <img className="selfie" src={ReikiHealingSite} alt="Streaming search" />
               </a>
             </div>

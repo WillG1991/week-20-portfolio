@@ -72,7 +72,7 @@ function Portfolio({ handleClick }) {
                 >
                   <h2 class="largeIcon text-center circle">📁</h2>
                   <h3>
-                    <a href="https://codeabreak.herokuapp.com/" role="img" aria-label="camera" id="#codeabr">
+                    <a  role="img" aria-label="camera" id="#codeabr">
                       Code-A-BR{" "}
                     </a>
                   </h3>
@@ -86,7 +86,7 @@ function Portfolio({ handleClick }) {
                 >
                   <h2 class="largeIcon text-center circle">🧘🏽</h2>
                   <h3>
-                    <a href="www.christinaserafina.com" role="img" aria-label="camera" id="#reiki">
+                    <a  role="img" aria-label="camera" id="#reiki">
                       ReikiHealing{" "}
                     </a>
                   </h3>
@@ -100,7 +100,7 @@ function Portfolio({ handleClick }) {
                 >
                   <h2 class="largeIcon text-center circle">🐝</h2>
                   <h3>
-                    <a href="www.gehrkeapiaries.com" role="img" aria-label="camera" id="#apiary">
+                    <a role="img" aria-label="camera" id="#apiary">
                      Gehrke Apiaries{" "}
                     </a>
                   </h3>
