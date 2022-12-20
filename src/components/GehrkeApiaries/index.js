@@ -18,7 +18,7 @@ function Apiary() {
             </div>
             <div class="col">
               <h6>
-React built website built using custom CSS styling. Minor React MUI components.               </h6>
+React built website using custom CSS styling. Minor React MUI components.               </h6>
             </div>
           </div>
         </div>
