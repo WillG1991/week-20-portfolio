@@ -18,6 +18,22 @@ a {
   font-size: 30px;
 }
 
+.textSmall {
+  text-align: center;
+  line-height: 10px;
+  font-size: 10px;
+  font-family: "Varela Round", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  background: linear-gradient(rgba(255, 255, 255, 5), rgba(255, 255, 255, 0));
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+  position: relative;
+  top: -56px;
+  width: 400px;
+  letter-spacing: 0.3rem;
+}
+
+
 .btn-outline-info:hover {
   background-color: #30a7ce;
 }

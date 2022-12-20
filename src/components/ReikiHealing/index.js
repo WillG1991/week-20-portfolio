@@ -15,6 +15,7 @@ function ReikiHealing() {
             <a target="blank" href="http://www.christinaserafina.com">
               <img className="selfie" src={ReikiHealingSite} alt="Streaming search" />
               </a>
+              <h5 class="textSmall">Click the image to be taken to the site!</h5>
             </div>
             <div class="col">
               <h6>
