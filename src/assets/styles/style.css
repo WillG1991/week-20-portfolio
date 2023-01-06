@@ -94,7 +94,7 @@ body {
   border-radius: 12px;
   padding: 5px;
   height: 35vh;
-  width: 80vh;
+  width: 100vh;
 }
 
 section:hover {
@@ -306,14 +306,13 @@ h6 {
   font-family: "Varela Round", -apple-system, BlinkMacSystemFont, "Segoe UI",
     Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji",
     "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-  font-size: 1rem;
-  background: linear-gradient(rgba(255, 255, 255, 1.2), rgba(255, 255, 255, .8));
+    background: linear-gradient(rgba(255, 255, 255, 8), rgba(255, 255, 255, .5));
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
   background-clip: text;
-  font-size: 1.2rem;
-  line-height: 1.5rem;
-  padding: 40px;
+  font-size: 2rem;
+  line-height: 2rem;
+  padding: 65px;
 }
 
 mx-2 {
@@ -371,7 +370,7 @@ textarea {
 }
 
 .selfie {
-  width: 30vh;
+  width: 35vh;
   height: 30vh;
   padding: 40px;
   border-radius: 20%;
@@ -618,12 +617,7 @@ textarea {
   }
 
 h6 {
-    padding-top: 10px !important;
-    width: 47vh;
-    height: 25vh;
-    margin: 5vh;
-    font-size: .5rem;
-    padding-right: 25px;
+   margin: 10px;
 }
 
   .forHover {
@@ -651,34 +645,3 @@ h6 {
 }
 
 
-@media screen and (min-width: 991px) {
-  section:hover {
-    transform: scale(1);
-    background-size: cover;
-    transition: transform 2s ease;
-  }
-
-  .selfie1:hover {
-    transform: scale(1);
-  }
-}
-
-@media (min-width: 700px) {
-  .show-mobile {
-    display: none;
-  }
-
-  .hidden-mobile {
-    display: block;
-  }
-}
-
-@media (max-width: 300px) {
-  .show-mobile {
-    display: block;
-  }
-
-  .hidden-mobile {
-    display: none;
-  }
-}
