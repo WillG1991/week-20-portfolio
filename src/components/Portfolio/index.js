@@ -31,6 +31,7 @@ function Portfolio({ handleClick }) {
   return (
     <div className="d-flex justify-content-center">
       <div id="about" className="my-2">
+        <p className="largerText text-center varela-font"> My Work</p>
         <p>
           <nav>
             <ul className="flex-row">

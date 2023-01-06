@@ -1,5 +1,5 @@
 import React from "react";
-import GehrkeApiariesImage from "../../assets/img/GehrkeApiaries.jpg";
+import GehrkeApiariesImage from "../../assets/img/GehrkeApiaries.png";
 
 function Apiary() {
   return (
@@ -8,7 +8,7 @@ function Apiary() {
       Gehrke Apiaries
       </h2>
 
-      <div className="my-2 borderBox">
+      <div className="my-2 borderBoxPort">
         <div class="container">
           <div class="row">
             <div class="col">

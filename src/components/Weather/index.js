@@ -8,7 +8,7 @@ function Weather() {
         Movie Swipe
       </h2>
 
-      <div className="my-2 borderBox">
+      <div className="my-2 borderBoxPort">
         <div class="container">
           <div class="row">
             <div class="col">
