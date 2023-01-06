@@ -3,10 +3,10 @@ import React from "react";
 // Defines handleclick
 function Nav({ handleClick }) {
   return (
-    <header class="hidden-mobile">
+    <header className="hidden-mobile">
       <h5>
         <a data-testid="link" href="https://ohdangbro.github.io/week-20-portfolio">
-          <p class="forHover"> Clear </p>
+          <p className="forHover"> Clear </p>
         </a>
       </h5>
 
@@ -22,7 +22,7 @@ function Nav({ handleClick }) {
               <h3>
                 <a data-testid="link" href="#Main">
                   <span role="img" aria-label="camera">
-                  <h3 class="largeIcon text-center circle">👨‍🔧</h3>
+                  <h3 className="largeIcon text-center circle">👨‍🔧</h3>
                     {" "}
                    <h3>About-Me</h3> 
                   </span>
@@ -41,7 +41,7 @@ function Nav({ handleClick }) {
               <h3>
                 <a data-testid="link" href="#Main">
                   <span role="img" aria-label="camera">
-                  <h3 class="largeIcon text-center circle">🖥️</h3>
+                  <h3 className="largeIcon text-center circle">🖥️</h3>
                     {" "}
                    <h3>Portfolio</h3> 
                   </span>
@@ -58,7 +58,7 @@ function Nav({ handleClick }) {
               <h3>
                 <a data-testid="link" href="#Main">
                   <span role="img" aria-label="camera">
-                  <h3 class="largeIcon text-center circle">📄</h3>
+                  <h3 className="largeIcon text-center circle">📄</h3>
                     {" "}
                    <h3>Resume</h3> 
                   </span>
@@ -75,7 +75,7 @@ function Nav({ handleClick }) {
               <h3>
                 <a data-testid="link" href="#Main">
                   <span role="img" aria-label="camera">
-                  <h3 class="largeIcon text-center circle">📞</h3>
+                  <h3 className="largeIcon text-center circle">📞</h3>
                     {" "}
                    <h3>Contact</h3> 
                   </span>

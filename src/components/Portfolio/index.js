@@ -42,7 +42,7 @@ function Portfolio({ handleClick }) {
                   href="#Portmain"
                   onClick={() => handlePageChange("Movie")}
                 >
-                  <h2 class="largeIcon text-center circle">🔎</h2>
+                  <h2 className="largeIcon text-center circle">🔎</h2>
                   <h3>
                     <a role="img" aria-label="camera">
                       {" "}
@@ -57,7 +57,7 @@ function Portfolio({ handleClick }) {
                   href="#Portmain"
                   onClick={() => handlePageChange("Weather")}
                 >
-                  <h2 class="largeIcon text-center circle">🎥</h2>
+                  <h2 className="largeIcon text-center circle">🎥</h2>
                   <h3>
                     <a role="img" aria-label="camera">
                       MovieSwipe
@@ -71,7 +71,7 @@ function Portfolio({ handleClick }) {
                   href="#Portmain"
                   onClick={() => handlePageChange("Code")}
                 >
-                  <h2 class="largeIcon text-center circle">📁</h2>
+                  <h2 className="largeIcon text-center circle">📁</h2>
                   <h3>
                     <a  role="img" aria-label="camera" id="#codeabr">
                       Code-A-BR{" "}
@@ -85,7 +85,7 @@ function Portfolio({ handleClick }) {
                   href="#Portmain"
                   onClick={() => handlePageChange("Reiki")}
                 >
-                  <h2 class="largeIcon text-center circle">🧘🏽</h2>
+                  <h2 className="largeIcon text-center circle">🧘🏽</h2>
                   <h3>
                     <a  role="img" aria-label="camera" id="#reiki">
                       ReikiHealing{" "}
@@ -99,7 +99,7 @@ function Portfolio({ handleClick }) {
                   href="#Portmain"
                   onClick={() => handlePageChange("Apiary")}
                 >
-                  <h2 class="largeIcon text-center circle">🐝</h2>
+                  <h2 className="largeIcon text-center circle">🐝</h2>
                   <h3>
                     <a role="img" aria-label="camera" id="#apiary">
                      Gehrke Apiaries{" "}

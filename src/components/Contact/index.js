@@ -29,31 +29,31 @@ export const Contact = () => {
 };
 
 return (
- <section class="contact-form justify-content-center ">
-<h2 class="text-center varela-font">Contact Me</h2>
+ <section className="contact-form justify-content-center ">
+<h2 className="text-center varela-font">Contact Me</h2>
 <form ref={form} onSubmit={sendEmail}>
-  <div class="borderBoxContact ">
-    <div class="p-2 bd-highlight  justify-content-center">
+  <div className="borderBoxContact ">
+    <div className="p-2 bd-highlight  justify-content-center">
       <label htmlFor="name">
-        <h4 class="d-flex justify-content-center">Name:</h4>
+        <h4 className="d-flex justify-content-center">Name:</h4>
       </label>
-      <input class="rounded" id="input_username" type="text" name="from_name" onChange={event => setUserName(event.target.value)}
+      <input className="rounded" id="input_username" type="text" name="from_name" onChange={event => setUserName(event.target.value)}
           value={input_username} />
     </div>
-    <div class="p-2 bd-highlight  ">
+    <div className="p-2 bd-highlight  ">
       <label htmlFor="email">
-        <h4 class="d-flex justify-content-center">Email:</h4>
+        <h4 className="d-flex justify-content-center">Email:</h4>
       </label>
-      <input class="rounded" id="input_email" type="email" name="reply_to" onChange={event => setEmail(event.target.value)}
+      <input className="rounded" id="input_email" type="email" name="reply_to" onChange={event => setEmail(event.target.value)}
           value={input_email} />
     </div>
-    <div class="btnSubmit p-2 bd-highlight ">
+    <div className="btnSubmit p-2 bd-highlight ">
       <label htmlFor="message">
-        <h4 class="d-flex justify-content-center">Message:</h4>
+        <h4 className="d-flex justify-content-center">Message:</h4>
       </label>
-      <textarea class="rounded" name="message" onChange={event => setMessage(event.target.value)}
+      <textarea className="rounded" name="message" onChange={event => setMessage(event.target.value)}
           value={input_message} />
-  <input class="btnback btn btn-outline-info mt-4  justify-content-center"
+  <input className="btnback btn btn-outline-info mt-4  justify-content-center"
       id="input_message" type="submit" value="Submit" />
     </div>
    

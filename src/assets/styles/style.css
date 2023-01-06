@@ -465,6 +465,7 @@ textarea {
 }
 
 h6 {
+
   font-size: 1rem;
   line-height: 2.2rem;
   padding: 40px;
@@ -527,7 +528,7 @@ h6 {
   }
 
   .selfie {
-    width: 38vh;
+    width: 60vh;
     height: 35vh;
     padding: 40px;
     border-radius: 20%;
@@ -537,10 +538,13 @@ h6 {
     transform: scale(1);
   }
 
+  .textSmall {
+    width: 100%;
+  }
+
   h6 {
-    font-size: 1.5rem;
-    line-height: 1.5rem;
-    padding: 4vh;
+    padding-left: 45px;
+    padding: 0;
 }
 }
 
@@ -568,12 +572,35 @@ h6 {
   .borderBox {
     width: 100%;
   }
+
+  .borderBoxPort {
+    width: 60vh;
+  }
   section:hover {
     transform: scale(1);
   }
+  .selfie {
+    width: 53vh;
+    height: 35vh;
+    margin: 1.5vh;
+    padding-right: 35px;
+    border-radius: 20%;
+}
+
   .selfie1:hover {
     transform: scale(1);
   }
+
+  h6 {
+    padding-top: -10px;
+    padding: 2vh;
+    width: 49vh;
+    margin: 5vh;
+    font-size: .5rem;
+    padding-right: 25px;
+}
+
+
   .forHover {
     position:fixed;
     right: 80%;
@@ -597,6 +624,7 @@ h6 {
     writing-mode: vertical-rl;
     z-index: 999;
   }
+
 }
 
 
