@@ -306,16 +306,13 @@ h6 {
   font-family: "Varela Round", -apple-system, BlinkMacSystemFont, "Segoe UI",
     Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji",
     "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-  font-size: 1.5rem;
-  line-height: 13.5rem;
-  letter-spacing: 0.2rem;
+  font-size: 1rem;
   background: linear-gradient(rgba(255, 255, 255, 1.2), rgba(255, 255, 255, .8));
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
   background-clip: text;
-
-  font-size: 1rem;
-  line-height: 2.5rem;
+  font-size: 1.2rem;
+  line-height: 1.5rem;
   padding: 40px;
 }
 
@@ -381,7 +378,7 @@ textarea {
 }
 
 .selfie1 {
-  width: 40vh;
+  width: 45vh;
   height: auto;
   padding: 40px;
   border-radius: 20%;
@@ -609,7 +606,7 @@ textarea {
   }
 
   .selfie {
-    width: 53vh;
+    width: 54vh !important;
     height: 35vh;
     margin: 1.5vh;
     padding-right: 35px;
@@ -622,8 +619,7 @@ textarea {
 
 h6 {
     padding-top: 10px !important;
-    padding: 2vh;
-    width: 16vh;
+    width: 47vh;
     height: 25vh;
     margin: 5vh;
     font-size: .5rem;
