@@ -1,4 +1,5 @@
-import React from "react";
+import React from 'react';
+import Fade from 'react-reveal/Fade';
 
 // Defines handleclick
 function Nav({ handleClick }) {
@@ -12,13 +13,13 @@ function Nav({ handleClick }) {
 
       <nav>
         <ul className="flex-row">
+        <Fade left>
           <li className="mx-2">
             <span
               data-testid="about"
               href="#About"
               onClick={() => handleClick("About")}
             >
-              
               <h3>
                 <a data-testid="link" href="#Main">
                   <span role="img" aria-label="camera">
@@ -30,7 +31,8 @@ function Nav({ handleClick }) {
               </h3>
             </span>
           </li>
-
+    </Fade>
+    <Fade left>
           <li className="mx-2">
             <span
               data-testid="about"
@@ -49,6 +51,8 @@ function Nav({ handleClick }) {
               </h3>
             </span>
           </li>
+          </Fade>
+          <Fade right>
           <li className="mx-2">
             <span
               data-testid="about"
@@ -66,6 +70,8 @@ function Nav({ handleClick }) {
               </h3>
             </span>
           </li>
+          </Fade>
+          <Fade right>
           <li className="mx-2">
             <span
               data-testid="contact"
@@ -83,6 +89,7 @@ function Nav({ handleClick }) {
               </h3>
             </span>
           </li>
+          </Fade>
         </ul>
       </nav>
     </header>

@@ -4,6 +4,9 @@ import Weather from "../Weather/index";
 import Code from "../CodeABR/index";
 import ReikiHealing from "../ReikiHealing";
 import Apiary from "../GehrkeApiaries";
+import Zoom from 'react-reveal/Zoom';
+
+
 
 function Portfolio({ handleClick }) {
   const [currentPage, setCurrentPage] = useState("");
@@ -31,10 +34,14 @@ function Portfolio({ handleClick }) {
   return (
     <div className="d-flex justify-content-center">
       <div id="about" className="my-2">
+<Zoom>
         <p className="largerText text-center varela-font"> My Work</p>
+        </Zoom>
         <p>
           <nav>
             <ul className="flex-row">
+            <Zoom bottom>
+
               <li className="mx-2">
                 
                 <a
@@ -51,6 +58,8 @@ function Portfolio({ handleClick }) {
                   </h3>
                 </a>
               </li>
+              </Zoom>
+              <Zoom bottom>
               <li className="mx-2">
                 <a
                   data-testid="portfolio"
@@ -65,6 +74,8 @@ function Portfolio({ handleClick }) {
                   </h3>
                 </a>
               </li>
+              </Zoom>
+              <Zoom bottom>
               <li className="mx-2">
                 <a
                   data-testid="code"
@@ -79,6 +90,8 @@ function Portfolio({ handleClick }) {
                   </h3>
                 </a>
               </li>
+              </Zoom>
+              <Zoom bottom>
               <li className="mx-2">
                 <a
                   data-testid="code"
@@ -93,6 +106,8 @@ function Portfolio({ handleClick }) {
                   </h3>
                 </a>
               </li>
+              </Zoom>
+              <Zoom bottom>
               <li className="mx-2">
                 <a
                   data-testid="code"
@@ -107,6 +122,7 @@ function Portfolio({ handleClick }) {
                   </h3>
                 </a>
               </li>
+              </Zoom>
             </ul>
           </nav>
         </p>
