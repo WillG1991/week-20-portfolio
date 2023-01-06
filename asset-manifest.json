@@ -1,12 +1,12 @@
 {
   "files": {
-    "main.css": "/static/css/main.464103c3.css",
-    "main.js": "/static/js/main.e51fc6cd.js",
+    "main.css": "/static/css/main.6cf9fd1d.css",
+    "main.js": "/static/js/main.13e0081e.js",
     "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
     "static/media/ReikiHealingSite.png": "/static/media/ReikiHealingSite.0db6605aac062c366faf.png",
     "static/media/MovieSwipe.png": "/static/media/MovieSwipe.56fb86eac19d81db8749.png",
     "static/media/stream.png": "/static/media/stream.3b3dd6129423c90464c0.png",
-    "static/media/GehrkeApiaries.jpg": "/static/media/GehrkeApiaries.61f0bafd18e41bf52246.jpg",
+    "static/media/GehrkeApiaries.png": "/static/media/GehrkeApiaries.a8db94cb0e58523810fd.png",
     "static/media/codeabr.png": "/static/media/codeabr.f62648b63a2a1b2457dc.png",
     "static/media/resume.jpg": "/static/media/resume.d8e2175f915fb1da33e9.jpg",
     "static/media/brand-icons.svg": "/static/media/brand-icons.6729d29753e000c17489.svg",
@@ -29,12 +29,12 @@
     "static/media/outline-icons.woff2": "/static/media/outline-icons.687a4990ea22bb1a49d4.woff2",
     "static/media/background1.svg": "/static/media/background1.5ee6ec16c71c54233e9e.svg",
     "index.html": "/index.html",
-    "main.464103c3.css.map": "/static/css/main.464103c3.css.map",
-    "main.e51fc6cd.js.map": "/static/js/main.e51fc6cd.js.map",
+    "main.6cf9fd1d.css.map": "/static/css/main.6cf9fd1d.css.map",
+    "main.13e0081e.js.map": "/static/js/main.13e0081e.js.map",
     "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.464103c3.css",
-    "static/js/main.e51fc6cd.js"
+    "static/css/main.6cf9fd1d.css",
+    "static/js/main.13e0081e.js"
   ]
 }
