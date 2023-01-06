@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.c209f90d.css",
-    "main.js": "/static/js/main.9ed9d144.js",
+    "main.css": "/static/css/main.facf15e0.css",
+    "main.js": "/static/js/main.245f1e32.js",
     "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
     "static/media/ReikiHealingSite.png": "/static/media/ReikiHealingSite.0db6605aac062c366faf.png",
     "static/media/MovieSwipe.png": "/static/media/MovieSwipe.56fb86eac19d81db8749.png",
@@ -29,12 +29,12 @@
     "static/media/outline-icons.woff2": "/static/media/outline-icons.687a4990ea22bb1a49d4.woff2",
     "static/media/background1.svg": "/static/media/background1.5ee6ec16c71c54233e9e.svg",
     "index.html": "/index.html",
-    "main.c209f90d.css.map": "/static/css/main.c209f90d.css.map",
-    "main.9ed9d144.js.map": "/static/js/main.9ed9d144.js.map",
+    "main.facf15e0.css.map": "/static/css/main.facf15e0.css.map",
+    "main.245f1e32.js.map": "/static/js/main.245f1e32.js.map",
     "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c209f90d.css",
-    "static/js/main.9ed9d144.js"
+    "static/css/main.facf15e0.css",
+    "static/js/main.245f1e32.js"
   ]
 }
