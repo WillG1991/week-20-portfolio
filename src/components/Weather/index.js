@@ -1,13 +1,15 @@
 import React from "react";
 import MovieSwipe from "../../assets/img/MovieSwipe.png";
+import Zoom from 'react-reveal/Zoom';
+
 
 function Weather() {
   return (
+    <Zoom>
     <section className="my-5">
       <h2 id="about" className="text-center">
         Movie Swipe
       </h2>
-
       <div className="my-2 borderBoxPort">
         <div className="container">
           <div className="row">
@@ -24,6 +26,7 @@ function Weather() {
         </div>
       </div>
     </section>
+    </Zoom>
   );
 }
 

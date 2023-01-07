@@ -10,7 +10,7 @@ function About() {
           Who am I?
         </h2>
         <div className="my-2">
-          <div className="container text-center borderBox" className="borderBox">
+          <div className="container text-center borderBox">
             <div className="container">
               <div className="row">
                 <div className="col">
@@ -19,7 +19,7 @@ function About() {
                   </h6>
                 </div>
                 <div className="col">
-                  <img className="selfie1" src={Me} alt="BigCo Inc. logo" />
+                  <img className="selfie1" src={Me} alt="Selfie" />
                 </div>
               </div>
             </div>

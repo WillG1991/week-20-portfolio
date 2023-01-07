@@ -1,8 +1,12 @@
 import React from "react";
 import CodeBR from "../../assets/img/codeabr.png";
+import Zoom from 'react-reveal/Zoom';
+
+
 
 function Code() {
   return (
+    <Zoom>
     <section className="my-5">
       <h2 id="about" className="text-center varela-font">
         Code A Break
@@ -26,6 +30,7 @@ function Code() {
         </div>
       </div>
     </section>
+    </Zoom>
   );
 }
 

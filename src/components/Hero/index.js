@@ -1,12 +1,25 @@
 import React from 'react';
-import Fade from 'react-reveal/Fade';
+import Slide from 'react-reveal/Slide';
+
 
 function Hero() {
   return (
-    <Fade top>
-
-      <h1 className="largeText text-center varela-font">Will</h1>
-      </Fade>
+  
+<div className="heroLayout">
+<Slide left>
+      <h1 className="largeText text-center varela-font">W</h1>
+      </Slide>
+      <Slide top>
+      <h1 className="largeText text-center varela-font">i</h1>
+      </Slide>
+      <Slide bottom>
+      <h1 className="largeText text-center varela-font">l</h1>
+      </Slide>
+      <Slide right>
+      <h1 className="largeText text-center varela-font">l</h1>
+      </Slide>
+      </div>
+   
     
   );
 }

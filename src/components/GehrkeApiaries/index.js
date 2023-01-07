@@ -1,8 +1,11 @@
 import React from "react";
 import GehrkeApiariesImage from "../../assets/img/GehrkeApiaries.png";
+import Zoom from 'react-reveal/Zoom';
+
 
 function Apiary() {
   return (
+    <Zoom>
     <section className="my-5">
       <h2 id="about" className="text-center varela-font">
         Gehrke Apiaries
@@ -24,6 +27,7 @@ function Apiary() {
         </div>
       </div>
     </section>
+    </Zoom>
   );
 }
 

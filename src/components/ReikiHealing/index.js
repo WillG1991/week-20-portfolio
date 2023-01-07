@@ -1,13 +1,14 @@
 import React from "react";
 import ReikiHealingSite from "../../assets/img/ReikiHealingSite.png";
+import Zoom from 'react-reveal/Zoom';
 
 function ReikiHealing() {
   return (
+<Zoom>
     <section className="my-5">
       <h2 id="about" className="text-center varela-font">
       ChristinaSerafina.com
       </h2>
-
       <div className="my-2 borderBoxPort">
         <div className="container">
           <div className="row">
@@ -25,6 +26,7 @@ function ReikiHealing() {
         </div>
       </div>
     </section>
+    </Zoom>
   );
 }
 

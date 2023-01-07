@@ -1,8 +1,10 @@
 import React from "react";
 import Stream from "../../assets/img/stream.png";
+import Zoom from 'react-reveal/Zoom';
 
 function Movie() {
   return (
+    <Zoom>
     <section className="my-5">
       <h2 id="about" className="text-center varela-font">
       Search and Stream
@@ -26,6 +28,7 @@ function Movie() {
         </div>
       </div>
     </section>
+    </Zoom>
   );
 }
 
