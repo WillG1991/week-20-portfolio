@@ -5,7 +5,7 @@ import Resume from "../src/components/Resume";
 import Contact from "../src/components/Contact";
 import Portfolio from "../src/components/Portfolio";
 import Hero from "../src/components/Hero";
-import Movie from "../src/components/Movie";
+import MovieSwipe from "../src/components/MovieSwipe"
 
 function App() {
   const [currentPage, setCurrentPage] = useState("Home");
@@ -24,7 +24,7 @@ function App() {
       return <Contact />;
     }
     if (currentPage === "Movie") {
-      return <Movie />;
+      return <MovieSwipe />;
     }
   };
 

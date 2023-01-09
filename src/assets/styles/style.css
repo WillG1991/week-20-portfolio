@@ -321,9 +321,12 @@ h6 {
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
   background-clip: text;
-  font-size: 2rem;
-  line-height: 2rem;
+  font-size: 1.25rem;
+    line-height: 1.5rem;
   padding: 65px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 mx-2 {
