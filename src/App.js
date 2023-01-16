@@ -1,6 +1,7 @@
 import React, { useState } from "react";
-import NavBar from "./components/NavBar";
-import Landing from "./components/Landing";
+
+import Landing from "./Pages/Landing";
+import Home from "./Pages/Home";
 
 
 function App() {
@@ -34,7 +35,7 @@ function App() {
     //   <main id="Main">{renderPage()}</main>
     // </div>
     <>
-    <Landing></Landing>
+    <Home/>
 </>
   );
 }

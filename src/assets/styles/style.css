@@ -11,6 +11,17 @@ header {
 }
 
 
+
+
+
+
+
+
+
+
+
+
+
 /* landing------- */
 .heroContainer {
   width: 100%;
@@ -65,13 +76,11 @@ header {
 
 
 
-
-CSS
-/* Icon 1 */
+/* ------------------- NAV --------------------------- */
 .animated-icon1,
 .animated-icon2,
 .animated-icon3 {
-  width: 30px;
+  width: 75px;
   height: 20px;
   position: relative;
   margin: 0px;
@@ -93,7 +102,7 @@ CSS
   position: absolute;
   height: 3px;
   width: 100%;
-  border-radius: 9px;
+ 
   opacity: 1;
   left: 0;
   -webkit-transform: rotate(0deg);
@@ -151,7 +160,6 @@ CSS
   transform: rotate(-135deg);
 }
 
-/* Icon 3*/
 
 .animated-icon2 span:nth-child(1) {
   top: 0px;
@@ -192,5 +200,204 @@ CSS
   left: 50%;
 }
 
+.navCol {
+  background-color: black !important;
+  width: 15%;
+  height: 50%;
+  flex-direction: column;
+  display: flex;
+}
+
+.bg-dark {
+  --bs-bg-opacity: 1;
+  background-color: black !important;
+  width: 100%;
+}
+
+.mb-3 {
+  margin-bottom: 0rem!important;
+  background-color: rgb(0, 0, 0);
+
+}
+
+.ms-auto {
+  right: 3 !important;
+}
+
+.collapse{
+  position: relative;
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.landingNav {
+  position: fixed;
+}
+
+.navbar-toggler {
+  border: none !important;
+  padding: 2%;
+}
+/* ------------------- NAV --------------------------- */
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.homeBacks {
+  background-image: url("../img/background1.svg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  height: 100vh;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+nav ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+}
+
+nav li {
+  align-content: space-between !important;
+ height: 5vw;
+ width: 10vw;
+  border-style: solid;
+  border-radius: 12%;
+  border-color: white;
+
+  padding: 20%;
+}
+
+.flex-row {
+  justify-content: center;
+  height: 50%;
+}
+
+mx-2 {
+  /* border-left: 0.13em solid #ff0000 !important;
+  border-right: 0.13em solid #ff0000 !important; */
+  /* border: #e3f2fd !important; */
+}
+
+.circle {
+  animation: pulse 2s infinite;
+  font-size: 25px;
+}
+.circle:hover {
+  background-color: #ffffff;
+  transition: 0.7s;
+}
+
+h3 {
+  color:#fff;
+  font-size: 15px !important;
+  padding: 0%;
+  
+}
+.largeIcon, h3 {
+  -webkit-text-fill-color: transparent;
+  background: linear-gradient(#fff,hsla(0,0%,100%,0));
+  -webkit-background-clip: text;
+  background-clip: text;
+  font-family: Varela Round,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji;
+  /* letter-spacing: .8rem; */
+}
+
+article, aside, footer, header, nav, section {
+  flex-direction: column !;
+  margin-top: 7px;
+  padding-right: 525px;
+  padding-top: 2%;
+}
+
+.hidden-mobile {
+  height: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* home ----------------- */
+
+
+
+
+.mainSection {
+  height: 25px !important;
+}
+
+.mainSection {
+  height: 0%;
+  position: relative;
+  padding-left: 50%;
+}
+
+
+
+
+
+
+
+.whoAmISection {
+  width: 90vw;
+  padding-top: 25%;
+}
+
+
+
+.introSection {
+  margin-top: 0;
+ 
+    color:#fff;
+    font-size: 100px;
+    display: flex;
+
+}
+
+.whoExpl {
+  font-size: 25px;
+  color: aliceblue;
+  width: 50vw !important;
+  padding-top: 10%;
+  margin-left: -20%;
+}
+
+
+
+
+h1:first-child, h2:first-child, h3:first-child, h4:first-child, h5:first-child {
+  margin-top: -35px !important;
+}

@@ -1,116 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- Flevix.com  -->
-<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="1800px"
-	 height="1200px" viewBox="0 0 1800 1200" enable-background="new 0 0 1800 1200" xml:space="preserve">
-<g id="Circle-5">
-</g>
-<g id="Circle-1">
-	<path fill="#AB4298" d="M287.591,1784.46C5.314,1502.184,188.187,861.649,729.206,320.63s1235.313-777.652,1517.589-495.375
-		s45.645,976.57-495.375,1517.59S569.868,2066.737,287.591,1784.46z">
-		<animateTransform attributeName="transform"
-                          attributeType="XML"
-                          type="translate"
-                          dur="2s"
-                          begin="1.8"
-                          values="0,50;0,-50;0,50;"
-                          repeatCount="indefinite"/>
-	</path>
-</g>
-<g id="Circle-2">
-	<path fill="#A453A0" d="M184.744,1641.976c-282.277-282.277-72.524-949.69,468.495-1490.71
-		c515.932-515.932,1208.433-750.772,1490.71-468.495s45.645,976.57-495.375,1517.59S467.02,1924.253,184.744,1641.976z">
-		<animateTransform attributeName="transform"
-                          attributeType="XML"
-                          type="translate"
-                          dur="2s"
-                          begin="1.6"
-                          values="0,50;0,-50;0,50;"
-                          repeatCount="indefinite"/>
-	</path>
-</g>
-<g id="Circle-3">
-	<path fill="#9965AB" d="M54.411,1511.644c-282.277-282.277-72.524-949.691,468.495-1490.71s1208.433-750.772,1490.71-468.495
-		s45.645,976.57-495.375,1517.59S336.688,1793.921,54.411,1511.644z">
-		<animateTransform attributeName="transform"
-                          attributeType="XML"
-                          type="translate"
-                          dur="2s"
-                          begin="1.4"
-                          values="0,50;0,-50;0,50;"
-                          repeatCount="indefinite"/>
-	</path>
-</g>
-<g id="Circle-4">
-	<path fill="#8B78B7" d="M-98.295,1398.574C-380.572,1116.297-170.82,448.884,370.2-92.136s1208.433-750.772,1490.71-468.495
-		s45.645,976.57-495.375,1517.59S183.982,1680.851-98.295,1398.574z">
-		<animateTransform attributeName="transform"
-                          attributeType="XML"
-                          type="translate"
-                          dur="2s"
-                          begin="1.2"
-                          values="0,50;0,-50;0,50;"
-                          repeatCount="indefinite"/>
-	</path>
-</g>
-<g id="Circle-6">
-	<path fill="#5C9AD3" d="M-231.183,1265.686c-282.277-282.277-72.524-949.691,468.495-1490.71s1208.433-750.772,1490.71-468.495
-		s45.645,976.57-495.375,1517.59S51.094,1547.963-231.183,1265.686z">
-		<animateTransform attributeName="transform"
-                          attributeType="XML"
-                          type="translate"
-                          dur="2s"
-                          begin="1"
-                          values="0,50;0,-50;0,50;"
-                          repeatCount="indefinite"/>
-	</path>
-</g>
-<g id="Circle-7">
-	<path fill="#4BAEE2" d="M-361.516,1135.354c-282.277-282.277-72.524-949.69,468.495-1490.71s1208.433-750.772,1490.71-468.495
-		s45.645,976.57-495.375,1517.59S-79.239,1417.631-361.516,1135.354z">
-		<animateTransform attributeName="transform"
-                          attributeType="XML"
-                          type="translate"
-                          dur="2s"
-                          begin=".8"
-                          values="0,50;0,-50;0,50;"
-                          repeatCount="indefinite"/>
-	</path>
-</g>
-<g id="Circle-8">
-	<path fill="#37C6F4" d="M-496.237,991.557C-778.514,709.28-568.762,41.866-27.742-499.153s1208.433-750.772,1490.71-468.495
-		s45.645,976.57-495.375,1517.59S-213.96,1273.834-496.237,991.557z">
-		<animateTransform attributeName="transform"
-                          attributeType="XML"
-                          type="translate"
-                          dur="2s"
-                          begin=".6"
-                          values="0,50;0,-50;0,50;"
-                          repeatCount="indefinite"/>
-	</path>
-</g>
-<g id="Circle-9">
-	<path fill="#4FC8EC" d="M-643.688,844.106c-282.277-282.277-72.524-949.691,468.495-1490.71s1208.433-750.772,1490.71-468.495
-		s45.645,976.57-495.375,1517.59S-361.412,1126.383-643.688,844.106z">
-		<animateTransform attributeName="transform"
-                          attributeType="XML"
-                          type="translate"
-                          dur="2s"
-                          begin=".4"
-                          values="0,50;0,-50;0,50;"
-                          repeatCount="indefinite"/>
-	</path>
-</g>
-<g id="Circle-10">
-	<path fill="#5ECAE6" d="M-1186.249,596.169c-423.656-423.656-273.697-1260.497,334.942-1869.136s1445.48-758.598,1869.136-334.942
-		S1261.287-317.174,652.648,291.466S-762.593,1019.825-1186.249,596.169z">
-		<animateTransform attributeName="transform"
-                          attributeType="XML"
-                          type="translate"
-                          dur="2s"
-                          begin=".2"
-                          values="0,50;0,-50;0,50;"
-                          repeatCount="indefinite"/>
-	</path>
-</g>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="margin: auto; background: rgb(0, 0, 0); display: block; z-index: 1; position: relative; shape-rendering: auto;" width="2295" height="2000" preserveAspectRatio="xMidYMid" viewBox="0 0 2295 2000">
+<g transform="translate(1147.5,1000) scale(1,1) translate(-1147.5,-1000)"><linearGradient id="lg-0.1455324262308677" x1="0" x2="1" y1="0" y2="0">
+  <stop stop-color="#271f8b" offset="0"></stop>
+  <stop stop-color="#00ffff" offset="1"></stop>
+</linearGradient><path d="" fill="url(#lg-0.1455324262308677)" opacity="0.4">
+  <animate attributeName="d" dur="10s" repeatCount="indefinite" keyTimes="0;0.333;0.667;1" calcMode="spline" keySplines="0.5 0 0.5 1;0.5 0 0.5 1;0.5 0 0.5 1" begin="0s" values="M0 0L 0 1578.4839394382245Q 573.75 897.2317429973849  1147.5 873.8902874790224T 2295 313.93340672590466L 2295 0 Z;M0 0L 0 1642.2571104305225Q 573.75 826.1368812782484  1147.5 801.3043632081013T 2295 474.72259458692474L 2295 0 Z;M0 0L 0 1721.2971442332132Q 573.75 883.7876386718556  1147.5 851.6462751449471T 2295 263.15272686714206L 2295 0 Z;M0 0L 0 1578.4839394382245Q 573.75 897.2317429973849  1147.5 873.8902874790224T 2295 313.93340672590466L 2295 0 Z"></animate>
+</path><path d="" fill="url(#lg-0.1455324262308677)" opacity="0.4">
+  <animate attributeName="d" dur="10s" repeatCount="indefinite" keyTimes="0;0.333;0.667;1" calcMode="spline" keySplines="0.5 0 0.5 1;0.5 0 0.5 1;0.5 0 0.5 1" begin="-2s" values="M0 0L 0 1574.4967341279805Q 573.75 1109.9250236451444  1147.5 1081.5197208401871T 2295 297.96016199553196L 2295 0 Z;M0 0L 0 1416.8308633353174Q 573.75 1005.8294237520392  1147.5 963.6554846115264T 2295 412.93882012654876L 2295 0 Z;M0 0L 0 1477.3983060857731Q 573.75 1041.3465958531322  1147.5 1000.3309877331993T 2295 484.04327683734414L 2295 0 Z;M0 0L 0 1574.4967341279805Q 573.75 1109.9250236451444  1147.5 1081.5197208401871T 2295 297.96016199553196L 2295 0 Z"></animate>
+</path><path d="" fill="url(#lg-0.1455324262308677)" opacity="0.4">
+  <animate attributeName="d" dur="10s" repeatCount="indefinite" keyTimes="0;0.333;0.667;1" calcMode="spline" keySplines="0.5 0 0.5 1;0.5 0 0.5 1;0.5 0 0.5 1" begin="-4s" values="M0 0L 0 1698.1219209609778Q 573.75 1003.6318118178331  1147.5 961.5221003751197T 2295 334.01538259755716L 2295 0 Z;M0 0L 0 1715.8378611903095Q 573.75 1107.5901413994427  1147.5 1091.1546066796104T 2295 45.05809749490368L 2295 0 Z;M0 0L 0 1462.1306245210285Q 573.75 776.5804905509569  1147.5 754.4112292555261T 2295 255.02190664502018L 2295 0 Z;M0 0L 0 1698.1219209609778Q 573.75 1003.6318118178331  1147.5 961.5221003751197T 2295 334.01538259755716L 2295 0 Z"></animate>
+</path><path d="" fill="url(#lg-0.1455324262308677)" opacity="0.4">
+  <animate attributeName="d" dur="10s" repeatCount="indefinite" keyTimes="0;0.333;0.667;1" calcMode="spline" keySplines="0.5 0 0.5 1;0.5 0 0.5 1;0.5 0 0.5 1" begin="-6s" values="M0 0L 0 1706.5998393952675Q 573.75 1057.5418889815253  1147.5 1029.7780414301697T 2295 201.96750071702036L 2295 0 Z;M0 0L 0 1791.2353374606946Q 573.75 1133.774745544312  1147.5 1106.7323728707836T 2295 382.39469820409363L 2295 0 Z;M0 0L 0 1578.799702640287Q 573.75 861.0775753164929  1147.5 836.8786510673822T 2295 626.3553734220377L 2295 0 Z;M0 0L 0 1706.5998393952675Q 573.75 1057.5418889815253  1147.5 1029.7780414301697T 2295 201.96750071702036L 2295 0 Z"></animate>
+</path><path d="" fill="url(#lg-0.1455324262308677)" opacity="0.4">
+  <animate attributeName="d" dur="10s" repeatCount="indefinite" keyTimes="0;0.333;0.667;1" calcMode="spline" keySplines="0.5 0 0.5 1;0.5 0 0.5 1;0.5 0 0.5 1" begin="-8s" values="M0 0L 0 1337.9754731258647Q 573.75 1090.6728970950203  1147.5 1042.9004479497576T 2295 402.48845174518283L 2295 0 Z;M0 0L 0 1589.7051802947167Q 573.75 1221.4516281426904  1147.5 1196.802757448785T 2295 637.4449201181842L 2295 0 Z;M0 0L 0 1427.9075714439152Q 573.75 882.294156539883  1147.5 853.0454240045876T 2295 611.845225583807L 2295 0 Z;M0 0L 0 1337.9754731258647Q 573.75 1090.6728970950203  1147.5 1042.9004479497576T 2295 402.48845174518283L 2295 0 Z"></animate>
+</path></g>
 </svg>

@@ -35,13 +35,7 @@ const firstNavSections = [
 function Nav({ handleClick }) {
   return (
     <header className="hidden-mobile">
-      <Flash>
-        <h5>
-          <a data-testid="link" href="https://ohdangbro.github.io/week-20-portfolio">
-            <p className="forHover"> Clear </p>
-          </a>
-        </h5>
-      </Flash>
+   
       {firstNavSections.map(section =>
         <nav>
           <ul className="flex-row">
