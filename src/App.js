@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Landing from "./Pages/Landing";
 import Home from "./Pages/Home";
 
@@ -29,13 +29,13 @@ function App() {
 
   // const handlePageChange = (page) => setCurrentPage(page);
   return (
-    // <div className="back">
-    //   <Hero></Hero>
-    //   <Nav currentPage={currentPage} handleClick={handlePageChange}></Nav>
-    //   <main id="Main">{renderPage()}</main>
-    // </div>
     <>
-    <Home/>
+    <Router>
+    <Routes>
+      <Route path="/" element={<Landing />} />
+      <Route path="/home" element={<Home />} />
+    </Routes>
+    </Router>
 </>
   );
 }
