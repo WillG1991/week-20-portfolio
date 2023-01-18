@@ -33,3 +33,12 @@ nav ul {
 
 
 
+
+
+
+.allAbout {
+  background-image: url("../src/assets/img/CoolBee.jpeg");
+  background-color: #000000;
+  height:100% !important;
+  width: 100%;
+}

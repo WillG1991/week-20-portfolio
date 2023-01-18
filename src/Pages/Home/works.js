@@ -1,9 +1,9 @@
 import React, { useState } from "react";
-import searchImg from "../../assets/img/SearchAndStream.png"
-import movieswipeImg from "../../assets/img/MovieSwipe.png"
-import codeabreakImg from "../../assets/img/codeabreakImg.png"
-import ReikiHealing from "../../assets/img/ReikiHealingSite.png"
-import Apiary from "../../assets/img/ApiarysiteImg.png"
+import searchWorks from "../../assets/img/worksImages/searchWorks.png"
+import codeWorks from "../../assets/img/worksImages/codeWorks.png"
+import movieWorks from "../../assets/img/worksImages/movieWorks.png"
+import reikiWorks from "../../assets/img/worksImages/reikiWorks.png"
+import apiaryWorks from "../../assets/img/worksImages/apiaryWorks.png"
 import { styled } from '@mui/material/styles';
 import Box from '@mui/material/Box';
 import Paper from '@mui/material/Paper';
@@ -27,30 +27,31 @@ function Works() {
       
       <div className="photoGrid">
 
-
-
+<div className="worksHeader">
+<div> Works</div>
+<div class="productLine"></div>
+</div>
         <div class="container">
           <div ></div>
           <div class="box">
-            <h3>hi</h3>
-            <img src={searchImg} />
-            <span>CSS</span>
+            <img src={apiaryWorks} />
+            <span className="spanWorks">1</span>
           </div>
           <div class="box">
-            <img src={movieswipeImg} />
-            <span>Image</span>
+            <img src={searchWorks} />
+            <span className="spanWorks">2</span>
           </div>
           <div class="box">
-            <img src={codeabreakImg} />
-            <span>Hover</span>
+            <img src={movieWorks} />
+            <span className="spanWorks">3</span>
           </div>
           <div class="box">
-          <img src={ReikiHealing} />
-            <span>Effect</span>
+          <img src={codeWorks} />
+            <span className="spanWorks">4</span>
           </div>
           <div class="box">
-            <img src={Apiary} />
-            <span>Effect</span>
+            <img src={reikiWorks} />
+            <span className="spanWorks">5</span>
           </div>
         </div>
       </div>

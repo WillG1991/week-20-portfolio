@@ -10,7 +10,7 @@
     justify-content: center !important
   }
 
-  body {
+  /* body {
     margin: 0;
     padding: 0;
     overflow-x: hidden;
@@ -21,7 +21,7 @@
     line-height: 1;
     color: rgba(0,0,0,.87);
     background-color: black !important;
-}
+} */
 
 
   
@@ -137,27 +137,7 @@
   
   
   
-  nav ul {
-    list-style: none;
-    display: flex;
-    flex-direction: column;
-  }
-  
-  nav li {
-    align-content: space-between !important;
-   height: 5vw;
-   width: 10vw;
-    border-style: solid;
-    border-radius: 12%;
-    border-color: white;
-  
-    padding: 20%;
-  }
-  
-  .flex-row {
-    justify-content: center;
-    height: 50%;
-  }
+
   
 
   
@@ -191,19 +171,21 @@
 }
 
 .box {
-  flex: 1;
+  flex: 1 1;
   overflow: hidden;
   transition: .5s;
   margin: 0 2%;
-  box-shadow: 0 20px 30px rgba(0,0,0,.1);
+  box-shadow: 0 20px 30px rgb(0 0 0 / 10%);
   line-height: 0;
+  border: solid rgb(255 255 255);
 }
 
 .box > img {
-  width: 200%;
+  width: 100%;
   height: calc(100% - 10vh);
-  object-fit: cover; 
+  object-fit: cover;
   transition: .5s;
+  border: solid white;
 }
 
 .box > span {
@@ -212,6 +194,8 @@
   text-align: center;
   height: 10vh;
   line-height: 2.6;
+  
+
 }
 
 .box:hover { flex: 1 1 50%; }
@@ -274,7 +258,15 @@ h4 {
   height: 3px;
   margin-top: 20px;
   margin-bottom: 20px;
-  background-color: #fa5c5c;
+  background-color: rgb(4 157 227);
+}
+
+.productLine2 {
+  width: 100%;
+  height: 3px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  background-color: rgb(4 157 227);
 }
 
 .productText {
@@ -311,7 +303,7 @@ h4 {
   width: 1px;
   height: 150px;
   margin-left: 15px;
-  background-color: #ffcd4c;
+  background-color: rgb(4 157 227);
   -webkit-transform: rotate(0);
   -ms-transform: rotate(0);
   transform: rotate(0);
@@ -340,5 +332,219 @@ h4 {
 
 .IntroBox {
   display: flex;
+  justify-content: center;
+}
+
+
+.homeHero {
+  height: 100%;
+  width: 100%;
+  background-image: linear-gradient(rgba(12,3,51,0.3),rgba(12,3,51,0.3));
+  position: relative;
+  padding: 0 5%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+
+
+.nav{
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #000000 !important;
+  
+}
+
+nav .logo{
+  width: 80px;
+}
+
+ul {
+  background-color: black;
+  margin: 0;
+}
+
+nav ul li{
+  background-color: #232020;
+  list-style: none;
+  display: inline-block;
+  margin-left: 40px;
+}
+
+nav ul li a{
+  text-decoration: none;
+  color: white;
+  font-size: 17px;
+}
+
+ul {
+  margin-top: 0;
+  /* margin-bottom: 1rem; */
+}
+
+
+.homeHero{
+background-color: #232020;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Roboto Mono";
+  font-size: 18px;
+}
+#hero {
+  height: 100vh;
+  width: 100%;
+  background: linear-gradient(rgba(0, 0, 0, 0.342), rgba(0, 0, 0, 0.342)),
+    url("../img/backgroundHero.jpeg")
+      no-repeat center bottom / cover;
+  color: whitesmoke;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.342), rgba(0, 0, 0, 0.342)),
+}
+
+#about {
+  height: 100vh;
+  width: 100%;
+  background-color: #000000;
+}
+
+
+
+
+
+
+.container {
+  width: 90%;
+  height: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  background: linear-gradient(rgba(0, 0, 0, 0.342), rgba(0, 0, 0, 0.342)),
+
+  
+
+  /*   text-align: center; */
+}
+#hero .info h1 {
+  font-size: 4rem;
+  /* text-transform: uppercase; */
+  margin-bottom: 1rem;
+}
+#hero .info h2 {
+  font-size: 1.5rem;
+  margin-bottom: 2rem;
+}
+#hero .info p {
+  font-size: 1.2rem;
+  max-width: 50%;
+}
+#hero .info a {
+  text-decoration: none;
+  display: inline-block;
+  background-color: white;
+  border-radius: 4px;
+  font-size: 1.8rem;
+  padding: 0.5em 2em;
+  margin-top: 2rem;
+  color: #ee6c09;
+}
+
+.info{
+  color: white;
+  font-size: 60px;
+}
+
+
+
+.heroImageMe {
+  position: absolute;
+  bottom: -35px;
+  right: 200px;
+  background-color: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 59%, rgba(0, 0, 0, 0.65) 100%),;
+}
+
+.heroName{
+  color: rgb(4 157 227);
+}
+
+.productLine {
+  width: 85px;
+  height: 3px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  background-color: rgb(4 157 227);
+  display: flex !important;
+  flex-direction: row !important;
+  justify-content: center !important;
+}
+
+.productLine.ver {
+  width: 1px;
+  height: 80px;
+  margin-left: 10px !important;
+  background-color: rgb(4 157 227);
+  -webkit-transform: rotate(0);
+  -ms-transform: rotate(0);
+  transform: rotate(0);
+}
+
+
+@media only screen and (max-width: 768px) {
+  html {
+    font-size: 10px;
+  }
+}
+
+/* ********************* */
+/* This Code is for only the floating card in right bottom corner */
+/* ********************** */
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+a {
+  padding: 0;
+  margin: 0;
+  color: var(--color-4);
+  text-decoration: none;
+}
+
+.spanWorks {
+  border: rgba(255, 255, 255, 0.5);
+  border-radius: 50%;
+  width: 200px;
+  color: #049de3;
+}
+
+.photoGrid{
+  background-color: #000000 !important;
+}
+
+
+
+.worksHeader{
+  color: #fff;
+  font-size: 50px !important;
+  display: flex;
+  flex-direction: row;
   justify-content: center;
 }
