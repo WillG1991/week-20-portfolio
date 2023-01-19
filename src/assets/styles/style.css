@@ -127,7 +127,9 @@
   
   
   
-  
+  h3 {
+    font-size: 60px !important;
+  }
   
   
   
@@ -252,7 +254,15 @@ h4 {
   margin-bottom: -10px;
 }
 
+.knowDeveloper{
+  display: flex;
+  flex-direction: row;
+}
 
+.container {
+  display: flex;
+  flex-direction: row;
+}
 .productLine {
   width: 85px;
   height: 3px;
@@ -262,10 +272,9 @@ h4 {
 }
 
 .productLine2 {
-  width: 100%;
+  width: 48%;
   height: 3px;
-  margin-top: 20px;
-  margin-bottom: 20px;
+  margin-top: -20px;
   background-color: rgb(4 157 227);
 }
 
@@ -501,6 +510,15 @@ body {
   -ms-transform: rotate(0);
   transform: rotate(0);
 }
+
+
+.meLooking {
+  height: 50%;
+  width: auto;
+  
+}
+
+
 
 
 @media only screen and (max-width: 768px) {
