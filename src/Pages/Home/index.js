@@ -3,7 +3,7 @@ import Works from "./works";
 import About from "../../components/About";
 import Hero from "../../components/Hero";
 import Nav from "../../components/Nav";
-
+import Skills from "../../components/Skills";
 
 
 function Home() {
@@ -14,6 +14,7 @@ function Home() {
     <section >
     <Hero></Hero>
     <Works className="allWorks"></Works>
+    <Skills></Skills>
     <About ></About>
     </section>
 

@@ -9,6 +9,8 @@ function Hero() {
 
   const styleMe = {
     position: "absolute",
+    height: "70%",
+    width: "auto",
     bottom: "-35px",
     right: "200px",
     backgroundColor: "linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 59%, rgba(0, 0, 0, 0.65) 100%),",
@@ -21,7 +23,7 @@ function Hero() {
     <div class="container">
       <div class="info">
         <h1>Hello, my name is  
-        <Flip top duration={4000}><span className="heroName"> <RandomReveal
+        <Flip top duration={3500}><span className="heroName"> <RandomReveal
     isPlaying
     duration={2.6}
     revealDuration={0.5}
@@ -30,7 +32,7 @@ function Hero() {
         <h2>I'm a Web Developer</h2>
         <div class="productLine ver"></div>
 
-        <p>I'm a freelance web developer based in the New York Metro area.</p>
+        <Fade duration={16000}><p>I'm a freelance web developer based in the New York Metro area.</p></Fade>
        
         <Fade duration={8000}><img alt="" class="heroImageMe" src={heroMe} style={styleMe}/></Fade>
 
