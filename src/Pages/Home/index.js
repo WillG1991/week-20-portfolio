@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import Works from "./works";
+import Works from "../../components/Works";
 import About from "../../components/About";
 import Hero from "../../components/Hero";
 import Nav from "../../components/Nav";
@@ -13,9 +13,10 @@ function Home() {
     
     <section >
     <Hero></Hero>
-    <Works className="allWorks"></Works>
+    <Works></Works>
+    <About></About>
     <Skills></Skills>
-    <About ></About>
+    
     </section>
 
     </>

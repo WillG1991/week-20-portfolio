@@ -77,7 +77,7 @@
 
   .btn {
     color: black;
-    background-color: white;
+    background-color: white !important;
     width: 8%;
     position: relative; 
     bottom: 12%;
@@ -402,7 +402,8 @@ h4 {
 
 
 
-.nav{
+ nav {
+  float: right !important;
   width: 100%;
   position: absolute;
   top: 0;
@@ -411,29 +412,34 @@ h4 {
   align-items: center;
   justify-content: space-between;
   background-color: #000000 !important;
-  
+}
+
+.navContainer {
+  position: fixed;
+  right: 0;
+  float: right !important;
+  background-color: transparent !important;
 }
 
 nav .logo{
   width: 80px;
 }
 
-ul {
+li {
+  
   background-color: black;
   margin: 0;
 }
 
-nav ul li{
-  background-color: #232020;
-  list-style: none;
-  display: inline-block;
-  margin-left: 40px;
-}
 
 nav ul li a{
   text-decoration: none;
-  color: white;
+  color: white !important;
   font-size: 17px;
+}
+
+ a {
+  color: white !important;
 }
 
 ul {
@@ -474,11 +480,12 @@ body {
     no-repeat center bottom / cover;
 }
 
-#work {
-  height: 100%;
+#works {
+  height: 100vh;
   width: 100%;
+  padding-top: 2%;
   background: linear-gradient(rgba(0, 0, 0, 0.342), rgba(0, 0, 0, 0.342)),
-  url("../img/backgroundHero.jpeg")
+  url("../img/blackBack.png")
     no-repeat center bottom / cover;
 }
 
@@ -619,12 +626,7 @@ padding: 1%;
   box-sizing: border-box;
 }
 
-a {
-  padding: 0;
-  margin: 0;
-  color: var(--color-4);
-  text-decoration: none;
-}
+
 
 .spanWorks {
   border: rgba(255, 255, 255, 0.5);

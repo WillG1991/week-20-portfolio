@@ -13,7 +13,7 @@ import IconBootstrap from 'react-devicon/bootstrap/plain'
 function Works() {
   return (
 
-    <section id="work">
+    <section id="works">
 
       
       <div className="photoGrid">
