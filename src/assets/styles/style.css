@@ -61,7 +61,7 @@
     position: relative;
   }
   
-  .heroContainer img {
+  .heroContainer video {
     width: 100% !important;
     height: 100%;
   }
