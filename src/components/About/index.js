@@ -10,7 +10,7 @@ function About() {
   return (
     <>
       <section id="about">
-    <div class="container">
+    <div class="container container2">
       <div class="info">
       <Fade top duration={3000}>
     <h3 className="damionFont"><span className="aboutKnow damionFont">KNOW</span> THE DEVELOPER</h3>

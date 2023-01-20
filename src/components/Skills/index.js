@@ -18,7 +18,7 @@ function Skills() {
 
 <section id="skills">
     <br></br>
-    <div className="skillsSkills"> <h1 className="damionFont">Skills</h1></div>
+    <div className="skillsSkills"> <h1 className="damionFont skills">SKILLS</h1></div>
       <div className="worksHeader">
 
 
@@ -38,7 +38,6 @@ function Skills() {
   <div class="row">
     <div class="col-sm">
     <div className="p-5"><i class="devicon-html5-plain"></i><p>HTML5</p></div>
- 
     </div>
     <div class="col-sm">
     <div className="p-5"><i class="devicon-css3-plain"></i><p>CSS3</p></div>
@@ -63,7 +62,7 @@ function Skills() {
     <div className="p-5"><i class="devicon-express-original"></i><p>Express.js</p></div>
     </div>
     <div class="col-sm">
-    <div className="p-5"><i class="devicon-express-original"></i><p>Bulma</p></div>
+    <div className="p-5"><i class="devicon-bulma-plain"></i><p>Bulma</p></div>
     </div>
   </div>
 </div>
