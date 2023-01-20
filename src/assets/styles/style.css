@@ -10,25 +10,43 @@
     justify-content: center !important
   }
 
-  /* body {
-    margin: 0;
-    padding: 0;
-    overflow-x: hidden;
-    min-width: 320px;
-    background: #fff;
-    font-family: Lato,'Helvetica Neue',Arial,Helvetica,sans-serif;
-    font-size: 14px;
-    line-height: 1;
-    color: rgba(0,0,0,.87);
-    background-color: black !important;
-} */
+/* ----------------font start------------------- */
+@font-face {
+  font-family: sleekFont;
+  src: url("../fonts/poiret-one-font/PoiretOne-aD0x.ttf")
+}
+
+@font-face {
+  font-family: damionFont;
+  src: url("../fonts/damion-font/Damion-8gnD.ttf")
+}
+.damionFont {
+  font-family: Courier New;
+  font-weight: 600
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+  
+/* ----------------font end------------------- */
+  
+  
+  
 
 
-  
-  
-  
-  
-  
+
+
+
+
+
+
+
+
   
   
   
@@ -76,7 +94,7 @@
 
 
   .btn {
-    color: black;
+    color: black !important;
     background-color: white !important;
     width: 8%;
     position: relative; 
@@ -114,7 +132,6 @@
 
   #hero .info h1 {
     font-size: 6rem !important;
-    
     margin-bottom: 1rem;
   }
   
@@ -142,7 +159,7 @@
     font-size: 60px;
   }
   
-
+ /* home hero ------------------ */
   
   
   
@@ -243,26 +260,17 @@
 
 }
 
-.box:hover { flex: 1 1 50%; }
+/* .box:hover { flex: 1 1 50%; }
 .box:hover > img {
   width: 100%;
   height: 100%;
-}
+} */
+
+
  
 
 
 
-
-.introContainer {
-  display: flex;
-  justify-content: cemter;
-}
-
-.introTextContainer {
-  display: flex;
-  flex-direction: column;
-  padding-left: 25px;
-}
 
 img {
   height: 632px;
@@ -279,28 +287,9 @@ h4 {
   font-size: 80px !important;
 }
 
-.ourProduct {
-  margin-bottom: -10px;
-  font-family: Oswald, sans-serif;
-  font-size: 75px !important;
-  line-height: 60px;
-  font-weight: 700;
-  text-align: left;
-  color: #fff;
-  font-family: moonFont;
-}
-.ourProducts {
-  font-size: 20px !important;
-  text-align: left;
-  color: #fa5c5c;
-  font-family: moonFont;
-  margin-bottom: -10px;
-}
 
-.knowDeveloper{
-  display: flex;
-  flex-direction: row;
-}
+
+
 
 .container {
   display: flex;
@@ -314,22 +303,17 @@ h4 {
   background-color: rgb(4 157 227);
 }
 
-.productLine2 {
-  width: 17%;
-  height: 3px;
-  margin-top: -20px;
-  background-color: rgb(4 157 227);
-}
 
-.productText {
+
+.aboutText {
   width: 70%;
   max-width: 1100px;
   margin-top: 25px;
   margin-bottom: 20px;
   padding: 0;
-  font-family: Oswald, sans-serif;
+  font-family: serif, sans-serif;
   color: #f5f5f5;
-  font-size: 15px;
+  font-size: 17px;
   line-height: 32px;
   font-weight: 100;
   text-align: justify;
@@ -399,7 +383,7 @@ h4 {
   justify-content: center;
 }
 
-
+/* ------------------------- nav start--------------------------------- */
 
 
  nav {
@@ -419,6 +403,7 @@ h4 {
   right: 0;
   float: right !important;
   background-color: transparent !important;
+  padding-right: 20px;
 }
 
 nav .logo{
@@ -426,8 +411,8 @@ nav .logo{
 }
 
 li {
-  
-  background-color: black;
+  font-family: sleekFont;
+  background-color: transparent;
   margin: 0;
 }
 
@@ -436,6 +421,7 @@ nav ul li a{
   text-decoration: none;
   color: white !important;
   font-size: 17px;
+  font-family: sleekFont;
 }
 
  a {
@@ -447,17 +433,13 @@ ul {
   /* margin-bottom: 1rem; */
 }
 
+/* ------------------------- nav end--------------------------------- */
 
 .homeHero{
 background-color: #232020;
 }
 
-@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap");
-* {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
-}
+
 body {
   font-family: "Roboto Mono";
   font-size: 18px;
@@ -503,6 +485,14 @@ body {
 
 #skills p {
   font-size: 15px;
+}
+
+
+p-5{
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .introContainer{
@@ -632,7 +622,13 @@ padding: 1%;
   border: rgba(255, 255, 255, 0.5);
   border-radius: 50%;
   width: 200px;
-  color: #049de3;
+  color: #f7f7f7;
+  font-size: 5px;
+}
+
+.spanText{
+  font-size: 10px;
+  padding-top: 1%;
 }
 
 .photoGrid{
