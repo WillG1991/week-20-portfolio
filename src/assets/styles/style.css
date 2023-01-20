@@ -61,8 +61,8 @@
     position: relative;
   }
   
-  .heroContainer video {
-    width: 100%;
+  .heroContainer img {
+    width: 100% !important;
     height: 100%;
   }
   
@@ -79,8 +79,9 @@
     align-items: center;
     justify-content: center;
     mix-blend-mode: multiply;
-  
   }
+
+
   
   .heroBigText{
     font-size: 500px !important;
