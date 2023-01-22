@@ -39,7 +39,7 @@ function Skills() {
 
 <br></br>
 <div className="SkillsContainer">
-<Fade bottom>
+<Fade bottom duration={4500}>
 <div class="container">
   <div class="row">
     <div class="col-sm">
@@ -57,7 +57,7 @@ function Skills() {
   </div>
 </div>
 </Fade>
-<Fade top>
+<Fade top duration={4500}>
 <div class="container">
   <div class="row">
     <div class="col-sm">
@@ -74,8 +74,8 @@ function Skills() {
     </div>
   </div>
 </div>
-</Fade>
-<Fade bottom>
+</Fade >
+<Fade bottom duration={4500}>
 <div class="container">
   <div class="row">
     <div class="col-sm">

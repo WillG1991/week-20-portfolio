@@ -18,7 +18,7 @@ function Hero() {
         <h1>Hello, my name is  
         <Flip top duration={3500}><span className="heroName"> <RandomReveal
     isPlaying
-    duration={2.6}
+    duration={3.4}
     revealDuration={0.5}
     characters="Will."
   ></RandomReveal> </span></Flip></h1>
@@ -27,7 +27,7 @@ function Hero() {
 
         <Fade duration={16000}><p>I'm a freelance web developer based in the New York Metro area.</p></Fade>
        
-        <Fade duration={8000} ><span ><img alt="" class="heroImageMe" src={heroMe}/></span></Fade>
+        <Fade duration={6000} ><span ><img alt="" class="heroImageMe" src={heroMe}/></span></Fade>
 
       </div>
     </div>

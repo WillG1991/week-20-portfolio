@@ -494,6 +494,16 @@ canvas {
 
 
 
+
+
+
+
+
+
+
+
+
+
 /* -------------media query------------------- */
 /* Media Query for Mobile Devices */
 @media (max-width: 499px) {
@@ -513,7 +523,7 @@ canvas {
   }
 
   #skills {
-    padding-top: 35%;
+    padding-top: 15%;
     overflow: hidden;
   }
 
@@ -552,18 +562,18 @@ canvas {
 
   .navContainer {
     position: fixed;
-    right: 23px;
+    right: 0;
     float: right !important;
     background-color: transparent !important;
     padding-right: 20px;
   }
 
-  .imgcontainer {
-    width: 400px;
-    height: 400px;
-    display: flex !important;
-    justify-content: center !important;
-  }
+  canvas {
+    width: 375px !important;
+    height: 375px !important;
+}
+
+
 
 
   /* /// Container for icons in skills /// */
@@ -589,24 +599,24 @@ canvas {
     position: absolute;
     bottom: 0px;
     right: 0px;
-    height: 40%;
+    height: 45%;
     width: auto;
   }
 
   #hero .info h1 {
-    font-size: 1.9rem !important;
+    font-size: 1.7rem !important;
     padding-top: 0% !important;
     margin: 0;
 }
 
   #hero .info h2 {
-    font-size: 1.7rem !important;
+    font-size: 1.5rem !important;
     position: relative;
     margin: 0;
   }
 
   #hero .info p {
-    font-size: 1rem !important;
+    font-size: .9rem !important;
     max-width: 70%;
 
   }
@@ -637,10 +647,9 @@ canvas {
   }
 
   .damionFont {
-    font-size: 2.2rem !important;
-    padding-right: 2% !important;
-
-  }
+    font-size: 1.7rem !important;
+    padding-right: 0% !important;
+}
 
 
   .aboutText {
@@ -649,20 +658,15 @@ canvas {
     max-width: 1100px;
     font-family: serif, sans-serif;
     color: #f5f5f5;
-    font-size: 12px;
-    line-height: 32px;
+    font-size: 10px;
+    line-height: 25px;
     font-weight: 100;
     text-align: justify;
     margin: 0 !important;
   }
 
 
-  canvas {
-    width: 300px !important;
-    height: 300px !important;
-    padding: 10%;
-
-  }
+ 
 
   .skills {
     padding-top: 5%;
@@ -683,10 +687,7 @@ canvas {
     width: 100vh;
   }
 
-  canvas {
-    width: 375px !important;
-    height: 425px !important;
-}
+
 
 
   .heroBigText {
@@ -711,7 +712,7 @@ canvas {
     width: 90%;
     height: 100%;
     max-width: 1200px;
-    padding-top: 20%;
+    padding-top: 10%;
     display: flex;
     align-items: center;
     justify-content: left;
@@ -719,10 +720,7 @@ canvas {
     background: linear-gradient(rgba(0, 0, 0, 0.342), rgba(0, 0, 0, 0.342)),;
 }
 
-.damionFont {
-  font-size: 2.2rem !important;
-  padding-right: 0% !important;
-}
+
 
 .p-5 {
   padding: 1rem!important;
