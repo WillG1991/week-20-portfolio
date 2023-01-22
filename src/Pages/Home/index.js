@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-
+import Works from "../../components/Works";
 import About from "../../components/About";
 import Hero from "../../components/Hero";
 import Nav from "../../components/Nav";
@@ -13,6 +13,7 @@ function Home() {
     
     <section id="#home" >
     <Hero></Hero>
+    <Works></Works>
     <About></About>
     <Skills></Skills>
     <Footer></Footer>
