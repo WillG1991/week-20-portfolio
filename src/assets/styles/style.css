@@ -39,30 +39,36 @@ header {
 
 /* ------------------------- nav start--------------------------------- */
 
+.navbar {
+  --bs-bg-opacity: 1;
+  background-color: transparent!important;
+  
+}
 
 nav {
   float: right !important;
   width: 100%;
-  position: absolute;
+  position: fixed !important;
   top: 0;
   left: 0;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background-color: #000000 !important;
+  background-color: transparent !important;
+  z-index: 1;
 }
 
+.navbar-toggler-icon {
+  color: #f5f5f5 !important;
+}
 .navContainer {
   position: fixed;
   right: 0;
   float: right !important;
-  background-color: transparent !important;
+
   padding-right: 20px;
 }
 
-nav .logo {
-  width: 80px;
-}
 
 li {
   font-family: sleekFont;
@@ -860,12 +866,24 @@ canvas {
 
 .worksContainer {
   margin-top: 20% !important;
-  padding-left: 5%;
-  transform: scale(2.1);
+  /* padding-left: 5%; */
+  transform: scale(1);
+
+}
+
+.worksHeader {
+  color: #f5f5f5;
+  display: flex;
+  justify-content: center;
+  text-decoration: underline;
+  text-decoration-color: rgb(4 157 227);
+  margin-bottom: 10%;
+  
 }
 
 #works {
   overflow: hidden;
+  padding-top: 10% !important;
 }
   
   
