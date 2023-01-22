@@ -3,6 +3,8 @@ import { styled } from '@mui/material/styles';
 import Box from '@mui/material/Box';
 import Paper from '@mui/material/Paper';
 import Grid from '@mui/material/Grid';
+import Fade from 'react-reveal/Fade';
+
 
 const Item = styled(Paper)(({ theme }) => ({
     backgroundColor: theme.palette.mode === 'dark' ? '#1A2027' : '#fff',
@@ -11,6 +13,9 @@ const Item = styled(Paper)(({ theme }) => ({
     textAlign: 'center',
     color: theme.palette.text.secondary,
   }));
+
+
+
 
 
 function Skills() {
@@ -34,6 +39,7 @@ function Skills() {
 
 <br></br>
 <div className="SkillsContainer">
+<Fade bottom>
 <div class="container">
   <div class="row">
     <div class="col-sm">
@@ -50,6 +56,8 @@ function Skills() {
     </div>
   </div>
 </div>
+</Fade>
+<Fade top>
 <div class="container">
   <div class="row">
     <div class="col-sm">
@@ -66,6 +74,8 @@ function Skills() {
     </div>
   </div>
 </div>
+</Fade>
+<Fade bottom>
 <div class="container">
   <div class="row">
     <div class="col-sm">
@@ -82,6 +92,7 @@ function Skills() {
     </div>
   </div>
 </div>
+</Fade>
 </div>
 </div>
     </section>

@@ -514,7 +514,11 @@ canvas {
 
   #skills {
     padding-top: 35%;
- 
+    overflow: hidden;
+  }
+
+  #about {
+    overflow: hidden !important;
   }
 
 
@@ -535,7 +539,7 @@ canvas {
     width: 90%;
     height: 100%;
     max-width: 1200px;
-    padding-top: 60%;
+    padding-top: 30%;
     padding-left: 10%;
     background: linear-gradient(rgba(0, 0, 0, 0.342), rgba(0, 0, 0, 0.342)),;
 }
@@ -722,6 +726,7 @@ canvas {
 
 .p-5 {
   padding: 1rem!important;
+  display: block;
 }
   
   
