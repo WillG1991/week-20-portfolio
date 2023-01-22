@@ -13,7 +13,7 @@ function Hero() {
   return (
     <>
     <section id="hero">
-    <div class="container">
+    <div class="containerIMWILL">
       <div class="info">
         <h1>Hello, my name is  
         <Flip top duration={3500}><span className="heroName"> <RandomReveal

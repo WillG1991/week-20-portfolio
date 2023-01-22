@@ -19,7 +19,7 @@ function Skills() {
 <section id="skills">
     <br></br>
     <div className="skillsSkills"> <h1 className="damionFont skills">SKILLS</h1></div>
-      <div className="worksHeader">
+      <div className="skillsSizing">
 
 
 
