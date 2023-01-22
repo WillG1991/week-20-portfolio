@@ -861,7 +861,7 @@ canvas {
 }
 
 .worksContainer {
-  margin-top: 20% !important;
+  margin-top: -90% !important;
   /* padding-left: 5%; */
   transform: scale(.8);
 }
@@ -1338,7 +1338,7 @@ canvas {
 
   .worksContainer {
     margin-top: -50% !important;
-    padding-left: 10%;
+    padding-left: -10%;
     transform: scale(1.2);
   }
   
@@ -1416,7 +1416,9 @@ canvas {
   }
 
   .worksContainer {
-    margin-top: -35% !important;
+    margin-top: -50% !important;
+    padding-top: 10%;
+    padding-right: -10%;
     transform: scale(1.4);
   }
   
