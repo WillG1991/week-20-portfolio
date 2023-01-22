@@ -504,12 +504,17 @@ canvas {
     width: 100vw;
   }
 
+  #home {
+    overflow: hidden;
+  }
+
   #works {
     padding-top: 50%;
   }
 
   #skills {
-    padding-top: 10%;
+    padding-top: 35%;
+ 
   }
 
 
@@ -530,8 +535,8 @@ canvas {
     width: 90%;
     height: 100%;
     max-width: 1200px;
-    padding-top: 50%;
-    padding-left: 5%;
+    padding-top: 60%;
+    padding-left: 10%;
     background: linear-gradient(rgba(0, 0, 0, 0.342), rgba(0, 0, 0, 0.342)),;
 }
 
@@ -543,7 +548,7 @@ canvas {
 
   .navContainer {
     position: fixed;
-    right: 0;
+    right: 23px;
     float: right !important;
     background-color: transparent !important;
     padding-right: 20px;
@@ -568,8 +573,7 @@ canvas {
     --bs-gutter-x: 1.5rem;
     --bs-gutter-y: 0;
     width: 100%;
-    padding-right: calc(var(--bs-gutter-x) * .5);
-    padding-left: calc(var(--bs-gutter-x) * .5);
+    padding-left: 0 !important;
     margin-right: auto;
     margin-left: auto;
     overflow: hidden;
@@ -586,16 +590,13 @@ canvas {
   }
 
   #hero .info h1 {
-    font-size: 2.2rem !important;
+    font-size: 1.9rem !important;
     padding-top: 0% !important;
-    padding-left: 10% !important;
-    /* width: 150%; */
     margin: 0;
-  }
+}
 
   #hero .info h2 {
-    font-size: 2.1rem !important;
-    padding-left: 10% !important;
+    font-size: 1.7rem !important;
     position: relative;
     margin: 0;
   }
@@ -603,15 +604,13 @@ canvas {
   #hero .info p {
     font-size: 1rem !important;
     max-width: 70%;
-    padding-left: 10% !important;
 
   }
 
   .productLine.ver {
-    width: 1px;
+    width: 2px;
     height: 35px !important;
     position: relative;
-    margin-left: 10% !important;
 
 
   }
@@ -657,7 +656,6 @@ canvas {
   canvas {
     width: 300px !important;
     height: 300px !important;
-    margin-top: 5% !important;
     padding: 10%;
 
   }
@@ -669,10 +667,9 @@ canvas {
 
   .skillsSizing {
     color: #fff;
-    font-size: 30px !important;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
+    font-size: 14px !important;
+   align-items: center;
+   padding-right: 0;
 }
 
 
@@ -683,7 +680,7 @@ canvas {
   }
 
   canvas {
-    width: 425px !important;
+    width: 375px !important;
     height: 425px !important;
 }
 
@@ -716,6 +713,15 @@ canvas {
     justify-content: left;
     flex-direction: column;
     background: linear-gradient(rgba(0, 0, 0, 0.342), rgba(0, 0, 0, 0.342)),;
+}
+
+.damionFont {
+  font-size: 2.2rem !important;
+  padding-right: 0% !important;
+}
+
+.p-5 {
+  padding: 1rem!important;
 }
   
   
