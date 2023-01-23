@@ -1,18 +1,29 @@
-import React from "react";
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import Landing from "./Pages/Landing";
-import Home from "./Pages/Home";
+import React, { useState } from "react";
+import Home from "../src/Pages/Home"
+import Landing from "../src/Pages/Landing"
 
 
 function App() {
+  const [currentPage, setCurrentPage] = useState("Landing");
 
+  const renderPage = () => {
+    if (currentPage === "Landing") {
+      return <Landing />;
+    }
+    if (currentPage === "Home") {
+      return <Home />;
+    }
+  };
+
+  
+
+  const handlePageChange = (page) => setCurrentPage(page);
   return (
-    <Router>
-    <Routes>
-      <Route path="/" element={<Landing />} />
-      <Route path="/home" element={<Home />} />
-    </Routes>
-    </Router>
+    <div className="back">
+    
+      <div currentPage={currentPage} handleClick={handlePageChange}></div>
+      <main id="Main">{renderPage()}</main>
+    </div>
   );
 }
 
