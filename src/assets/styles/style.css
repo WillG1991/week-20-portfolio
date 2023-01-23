@@ -162,9 +162,10 @@ ul {
   position: relative;
 }
 
-.heroContainer {
-  width: 100% !important;
-  height: 100%;
+video {
+  display: inline-block;
+  width: 100vw;
+  height: 100vh;
 }
 
 .text-box {
@@ -1500,6 +1501,12 @@ canvas {
 
 /* Media Query for Extra Large screens */
 @media (min-width: 1901px) {
+
+  .heroContainer {
+    width: 100% !important;
+    height: 100vh;
+    overflow: hidden;
+}
 
   .heroImageMe {
     position: absolute;
