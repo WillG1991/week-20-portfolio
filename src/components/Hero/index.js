@@ -22,7 +22,7 @@ function Hero() {
     revealDuration={0.5}
     characters="Will."
   ></RandomReveal> </span></Flip></h1>
-        <h2>I'm a Web Developer<span className="headerPeriod">.</span></h2>
+        <h2>I'm a Web Developer.</h2>
         <div class="productLine ver"></div>
 
         <Fade duration={16000}><p>I'm a freelance web developer based in the New York Metro area.</p></Fade>
