@@ -5,10 +5,10 @@ import Landing from "../src/Pages/Landing"
 
 function App() {
   const [currentPage, setCurrentPage] = useState("Landing");
-
+  const handlePageChange = (page) => setCurrentPage(page);
   const renderPage = () => {
     if (currentPage === "Landing") {
-      return <Landing />;
+      return <Landing currentPage={currentPage} handleClick={handlePageChange} />;
     }
     if (currentPage === "Home") {
       return <Home />;
@@ -17,10 +17,9 @@ function App() {
 
   
 
-  const handlePageChange = (page) => setCurrentPage(page);
+
   return (
     <div className="back">
-    
       <div currentPage={currentPage} handleClick={handlePageChange}></div>
       <main id="Main">{renderPage()}</main>
     </div>

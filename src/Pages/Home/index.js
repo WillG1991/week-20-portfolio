@@ -11,7 +11,7 @@ function Home() {
     <>
     <Nav></Nav>
     
-    <section id="#home" >
+    <section id="#Home" >
     <Hero></Hero>
     <Works></Works>
     <About></About>
