@@ -10,7 +10,7 @@ function Landing({ handleClick }) {
     <>
       <div class="heroContainer">
         <video className="onDesktop" autoPlay muted src={LandingVid} alt="blue smoke" loop="true"></video>
-        <img className="onMobile" src={videoGif} alt="blue smoke" loop="true"></img>
+        <img className="onMobile" autoPlay muted src={videoGif} alt="blue smoke" loop="true"></img>
         <div class="text-box">
           <h1 className="heroBigText">Will</h1>
           <h1 className="heroBottom">Design & Development</h1>
