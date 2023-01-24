@@ -50,14 +50,14 @@ function Works() {
     </a>
   </div>
 </div>
+
 <div class="grid-block">
   <div class="tile">
-    <a class="tile-link" href="https://ohdangbro.github.io/Streaming-Search/" target="_blank">
-      <img class="tile-img tile-img1" src={searchSite} alt="searchsite"/>
+    <a class="tile-link" href="https://github.com/rrvallar/Project-3 "target="_blank">
+      <img class="tile-img tile-img2" src={movieSite} alt="moviesite"/>
     </a>
   </div>
 </div>
-
 <div class="grid-block">
   <div class="tile">
     <a class="tile-link" href="http://www.gehrkeapiaries.com" target="_blank">
@@ -67,11 +67,12 @@ function Works() {
 </div>
 <div class="grid-block">
   <div class="tile">
-    <a class="tile-link" href="https://github.com/rrvallar/Project-3 "target="_blank">
-      <img class="tile-img tile-img2" src={movieSite} alt="moviesite"/>
+    <a class="tile-link" href="https://ohdangbro.github.io/Streaming-Search/" target="_blank">
+      <img class="tile-img tile-img1" src={searchSite} alt="searchsite"/>
     </a>
   </div>
 </div>
+
 
 
 
@@ -85,19 +86,19 @@ function Works() {
 </div>
 <div class="grid-block">
   <div class="tile">
+    <a class="tile-link" href="www.branchburgsbest.com"  target="_blank">
+      <img class="tile-img tile-img2" src={dinerSite} alt="blanksite"/>
+    </a>
+  </div>
+</div>
+<div class="grid-block">
+  <div class="tile">
     <a class="tile-link" href="https://codeabreak.herokuapp.com/" target="_blank">
       <img class="tile-img tile-img4" src={codeSite} alt="codesite"/>
     </a>
   </div>
 </div>
 
-<div class="grid-block">
-  <div class="tile">
-    <a class="tile-link" href="http://www.branchburgsbest.com"  target="_blank">
-      <img class="tile-img tile-img2" src={dinerSite} alt="blanksite"/>
-    </a>
-  </div>
-</div>
 <div class="grid-block">
   <div class="tile">
     <a class="tile-link" >

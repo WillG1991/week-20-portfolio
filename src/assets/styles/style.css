@@ -64,7 +64,7 @@ header {
   background: linear-gradient(rgba(0, 0, 0, 0.342), rgba(0, 0, 0, 0.342)),
     url("../img/backgroundHero.jpeg") no-repeat center bottom / cover;
   color: whitesmoke;
-  mask-image: linear-gradient(180deg, rgb(0, 0, 0) 95%, transparent 100%);
+
 }
 
 #works {
@@ -72,6 +72,9 @@ header {
   width: 100%;
   background: linear-gradient(rgba(0, 0, 0, 0.342), rgba(0, 0, 0, 0.342)),
   url("../img/blackBack.png") no-repeat center bottom / cover;
+
+
+
 }
 
 #about {
@@ -79,14 +82,16 @@ header {
   width: 100%;
   background: linear-gradient(rgba(0, 0, 0, 0.342), rgba(0, 0, 0, 0.342)),
     url("../img/backgroundHero.jpeg") no-repeat center bottom / cover;
-    mask-image: linear-gradient(0deg, rgb(0, 0, 0) 95%, transparent 100%) !important;
+
+    
 }
 
 #skills {
   height: 100vh;
   width: 100vw;
   background-color: #000000;
-  mask-image: linear-gradient(0deg, rgb(0, 0, 0) 95%, transparent 100%) !important;
+ 
+  padding-top: 10%;
 }
 
 
