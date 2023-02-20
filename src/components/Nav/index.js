@@ -1,35 +1,31 @@
-import React from "react";
+import React, { useState } from "react";
 
+function Navbar({ handleClick }) {
+  const [isOpen, setIsOpen] = useState(false);
 
-
-
-function Nav() {
   return (
-    <>
-{/* <nav class="navbar navbar-dark bg-dark">
-<a class="navbar-brand" href="#">Navbar</a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-  <div class="collapse navbar-collapse" id="navbarNav">
-    <ul class="navbar-nav">
-      <li class="nav-item active">
-        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Features</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Pricing</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link disabled" href="#">Disabled</a>
-      </li>
-    </ul>
-  </div>
-</nav> */}
-      </>
+    <div>
+      <div className="hamburger" onClick={() => setIsOpen(!isOpen)}>
+        <div className="line"></div>
+        <div className="line"></div>
+        <div className="line"></div>
+      </div>
+      {isOpen && (
+        <div className="menu-container">
+          <div className="menu">
+            <a href="#hero" className="menu-item" onClick={() =>{ setIsOpen(false); handleClick("Home")}} >Home</a>
+            <a href="#works" className="menu-item" onClick={() => { setIsOpen(false); handleClick("Home")}}>Works</a>
+            <a href="#about" className="menu-item" onClick={() => { setIsOpen(false); handleClick("Home")}}>About</a>
+            <a href="#skills" className="menu-item" onClick={() => { setIsOpen(false); handleClick("Home")}}>Skills</a>
+            <a href="#contact" className="menu-item" onClick={() => { setIsOpen(false); handleClick("Contact")}}>Contact</a>
+
+
+           
+          </div>
+        </div>
+      )}
+    </div>
   );
 }
 
-export default Nav;
+export default Navbar;

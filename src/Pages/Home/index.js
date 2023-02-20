@@ -2,16 +2,18 @@ import React, { useState } from "react";
 import Works from "../../components/Works";
 import About from "../../components/About";
 import Hero from "../../components/Hero";
-import Nav from "../../components/Nav";
+import Navbar from "../../components/Nav";
 import Skills from "../../components/Skills";
-import Footer from "../../components/Footer";
-
+import Contact from "../../Pages/Contact";
+import Footer
+ from "../../components/Footer";
 function Home() {
   return (
     <>
-    <Nav></Nav>
+    
     
     <section id="#Home" >
+   <Navbar/>
     <Hero></Hero>
     <Works></Works>
     <About></About>
