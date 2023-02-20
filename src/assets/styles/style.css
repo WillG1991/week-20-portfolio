@@ -430,36 +430,42 @@ transform: rotateX(-45deg) rotateZ(-45deg);
   box-shadow: 5px 5px rgba(45, 186, 233, 0.4), 10px 10px rgba(45, 186, 233, 0.3),
     15px 15px rgba(45, 186, 233, 0.2), 20px 20px rgba(45, 186, 233, 0.1),
     25px 25px rgba(45, 186, 233, 0.05);
+    z-index: 1;
 }
 
 .tile-link:hover .tile-img2 {
   box-shadow: 5px 5px rgba(45, 186, 233, 0.4), 10px 10px rgba(45, 186, 233, 0.3),
     15px 15px rgba(45, 186, 233, 0.2), 20px 20px rgba(45, 186, 233, 0.1),
     25px 25px rgba(45, 186, 233, 0.05);
+    z-index: 1;
 }
 
 .tile-link:hover .tile-img3 {
   box-shadow: 5px 5px rgba(45, 186, 233, 0.4), 10px 10px rgba(45, 186, 233, 0.3),
     15px 15px rgba(45, 186, 233, 0.2), 20px 20px rgba(45, 186, 233, 0.1),
     25px 25px rgba(45, 186, 233, 0.05);
+    z-index: 1;
 }
 
 .tile-link:hover .tile-img4 {
   box-shadow: 5px 5px rgb(4 157 227), 10px 10px rgb(4 157 227),
     15px 15px rgba(45, 186, 233, 0.2), 20px 20px rgba(45, 186, 233, 0.1),
     25px 25px rgba(45, 186, 233, 0.05);
+    z-index: 1;
 }
 
 .tile-link:hover .tile-img5 {
   box-shadow: 5px 5px rgba(45, 186, 233, 0.4), 10px 10px rgba(45, 186, 233, 0.3),
     15px 15px rgba(45, 186, 233, 0.2), 20px 20px rgba(45, 186, 233, 0.1),
     25px 25px rgba(45, 186, 233, 0.05);
+    z-index: 1;
 }
 
 .tile-link:hover .tile-img6 {
   box-shadow: 5px 5px rgba(45, 186, 233, 0.4), 10px 10px rgba(45, 186, 233, 0.3),
     15px 15px rgba(45, 186, 233, 0.2), 20px 20px rgba(45, 186, 233, 0.1),
     25px 25px rgba(45, 186, 233, 0.05);
+    z-index: 1;
 }
 
 
@@ -1163,17 +1169,9 @@ line-height: 5px;
 
 
 .message {
-  display: none;
-  position: absolute;
-  top: 40%;
-  left: 40%;
-  transform: translate(-50%, -50%) rotate(-45deg); /* Added rotate() function */
-  background-color: rgb(0, 0, 0);
-  border: 1px solid black;
-  color: rgb(4 157 227);
-  padding: 10px;
-  font-size: 8px !important;
+display: none !important;
 }
+
 
 
   
