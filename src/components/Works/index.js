@@ -91,7 +91,7 @@ function Works() {
   <div class="tile">
     <a class="tile-link" href="http://www.branchburgsbest.com"  target="_blank">
       <img class="tile-img tile-img2" src={dinerSite} alt="blanksite"/>
-      <div className="message">a restaurant website using HTML, CSS, and Bootstrap. The site features a sleek and modern design and a seamless user experience for customers</div>
+      <div className="message">A restaurant website using HTML, CSS, and Bootstrap. The site features a sleek and modern design and a seamless user experience for customers</div>
 
     </a>
   </div>
