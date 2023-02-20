@@ -1169,7 +1169,17 @@ line-height: 5px;
 
 
 .message {
-display: none !important;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) rotate(-45deg);
+  background-color: black;
+  font-size: 20px;
+  color: rgb(4 157 227);
+  padding: 6px;
+  height: auto;
+  width: 80vw;
+  z-index: 9999;
 }
 
 
@@ -1437,6 +1447,20 @@ input, optgroup, select, textarea {
 .btnn {
   width: 20% !important;
   line-height: 5px;
+}
+
+.message {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) rotate(-45deg);
+  background-color: black;
+  font-size: 20px;
+  color: rgb(4 157 227);
+  padding: 6px;
+  height: auto;
+  width: 80vw;
+  z-index: 9999;
 }
 
 }
