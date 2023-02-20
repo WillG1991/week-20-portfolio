@@ -41,8 +41,8 @@ header {
 .message {
   display: none;
   position: absolute;
-  top: 50%;
-  left: 50%;
+  top: 40%;
+  left: 40%;
   transform: translate(-50%, -50%) rotate(-45deg); /* Added rotate() function */
   background-color: rgb(0, 0, 0);
   border: 1px solid black;

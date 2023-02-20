@@ -100,7 +100,7 @@ function Works() {
   <div class="tile">
     <a class="tile-link" href="https://codeabreak.herokuapp.com/" target="_blank">
       <img class="tile-img tile-img4" src={codeSite} alt="codesite"/>
-      <div className="message">A social media platform that connects coders with relaxing resources to improve their coding experience. The site allows users to log in, post, and comment on links for breaks during coding sessions. I built the site from the ground up in just one week, utilizing HTML, CSS, Bulma, SQL, Insomnia, and Express to create a seamless and intuitive user experience.</div>
+      <div className="message">A social media platform allowing users to log in, post, and comment. Built from the ground up in just one week, utilizing HTML, CSS, Bulma, SQL, Insomnia, and Express to create a seamless and intuitive user experience.</div>
 
     </a>
   </div>

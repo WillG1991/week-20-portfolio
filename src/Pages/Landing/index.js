@@ -6,7 +6,6 @@ import videoGif from "../../assets/vid/videoBackGif.gif"
 
 
 function Landing({ handleClick }) {
-  
   return (
     <>
       <div class="heroContainer">
