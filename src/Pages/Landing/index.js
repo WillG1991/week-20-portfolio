@@ -8,7 +8,7 @@ import videoGif from "../../assets/vid/videoBackGif.gif"
 function Landing({ handleClick }) {
   return (
     <>
-      <div class="heroContainer">
+      <div id="Landing" class="heroContainer">
       <video className="onDesktop" autoPlay muted src={LandingVid} alt="blue smoke" loop="true" playbackRate={5}></video>
         <img className="onMobile" autoPlay muted src={videoGif} alt="blue smoke" loop="true"></img>
         <div class="text-box">

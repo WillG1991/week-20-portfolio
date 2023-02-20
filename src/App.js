@@ -22,7 +22,7 @@ function App() {
 
   return (
     <div className="back">
-      <Navbar currentPage={currentPage} handleClick={handlePageChange}/>
+      {currentPage !== "Landing" && <Navbar currentPage={currentPage} handleClick={handlePageChange}/>}
       <main id="Main">{renderPage()}</main>
     </div>
   );

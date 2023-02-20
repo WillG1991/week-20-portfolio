@@ -196,6 +196,9 @@ video {
   top: -100px;
 }
 
+#Landing.hamburger {
+  display: none !important;
+}
 /* -------------------------------------------landing */
 
 
