@@ -91,7 +91,7 @@ function Works() {
   <div class="tile">
     <a class="tile-link" href="http://www.branchburgsbest.com"  target="_blank">
       <img class="tile-img tile-img2" src={dinerSite} alt="blanksite"/>
-      <div className="message">A restaurant website using HTML, CSS, and Bootstrap. The site features a sleek and modern design and a seamless user experience for customers</div>
+      <div className="message">A restaurant website using HTML, CSS, and Bootstrap. The site features a sleek and modern design and a seamless user experience for customers.</div>
 
     </a>
   </div>
@@ -100,7 +100,7 @@ function Works() {
   <div class="tile">
     <a class="tile-link" href="https://codeabreak.herokuapp.com/" target="_blank">
       <img class="tile-img tile-img4" src={codeSite} alt="codesite"/>
-      <div className="message">A social media platform allowing users to log in, post, and comment. Built from the ground up in just one week, utilizing HTML, CSS, Bulma, SQL, Insomnia, and Express to create a seamless and intuitive user experience.</div>
+      <div className="message">A social media platform allowing users to log in, post, and comment. Built from the ground upin just one week, utilizing HTML, CSS, Bulma, SQL, Insomnia and Express to create a seamless user experience.</div>
 
     </a>
   </div>
