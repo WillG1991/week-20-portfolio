@@ -196,9 +196,7 @@ video {
   top: -100px;
 }
 
-#Landing.hamburger {
-  display: none !important;
-}
+
 /* -------------------------------------------landing */
 
 
@@ -1163,6 +1161,19 @@ line-height: 5px;
   padding-left: 5% !important;
 }
 
+
+.message {
+  display: none;
+  position: absolute;
+  top: 40%;
+  left: 40%;
+  transform: translate(-50%, -50%) rotate(-45deg); /* Added rotate() function */
+  background-color: rgb(0, 0, 0);
+  border: 1px solid black;
+  color: rgb(4 157 227);
+  padding: 10px;
+  font-size: 8px !important;
+}
 
 
   
