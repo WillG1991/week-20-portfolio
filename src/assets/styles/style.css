@@ -38,20 +38,24 @@ header {
   position: relative;
 }
 
-.message {
-  display: none;
+.tile .message {
   position: absolute;
-  top: 40%;
-  left: 40%;
-  transform: translate(-50%, -50%) rotate(-45deg); /* Added rotate() function */
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) rotate(-45deg);
   background-color: rgb(0, 0, 0);
   border: 1px solid black;
-  color: rgb(4 157 227);
+  color: rgb(4, 157, 227);
   padding: 10px;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.3s ease-in-out;
+  z-index: 9999;
 }
 
 .tile:hover .message {
-  display: block;
+  opacity: 1;
+  visibility: visible;
 }
 
 
@@ -93,6 +97,7 @@ header {
 
 
 }
+
 
 #about {
   height: 100vh;

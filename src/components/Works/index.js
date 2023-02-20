@@ -5,6 +5,7 @@ import movieSite from "../../assets/img/worksImages/movieWorks.png"
 import codeSite from "../../assets/img/worksImages/codeWorks.png"
 import reikiSite from "../../assets/img/worksImages/reikiWorks.png"
 import dinerSite from "../../assets/img/worksImages/dinerWorks.png"
+import eventSite from "../../assets/img/worksImages/eventWorks.png"
 import blankSite from "../../assets/img/worksImages/blankWorks.png"
 
 
@@ -41,12 +42,13 @@ function Works() {
 </div>
 <div class="grid-block">
   <div class="tile">
-    <a class="tile-link" >
-      <img class="tile-img tile-img2" src={blankSite} alt="blanksite"/>
+    <a class="tile-link" href="http://www.polishedeventsco.com"target="_blank">
+      <img class="tile-img tile-img2" src={eventSite} alt="moviesite" useRef={eventSite}/>
+      <div className="message">A consumer event planning site that has been designed and developed using React.js. The site features an intuitive user interface and incorporates an EmailJS contact form, allowing users to easily get in touch. Additionally, the site boasts a beautiful photo gallery with a lightbox, making it simple to showcase stunning images of past events.</div>
+
     </a>
   </div>
 </div>
-
 <div class="grid-block">
   <div class="tile">
     <a class="tile-link" href="https://github.com/rrvallar/Project-3 "target="_blank">
@@ -83,7 +85,6 @@ function Works() {
     <a class="tile-link" href="http://www.christinaserafina.com" target="_blank">
       <img class="tile-img tile-img5" src={reikiSite} alt="reikisite"/>
       <div className="message">A single-page web app in React.js for a service-based website that leverages reusable components for each section of the page, while also incorporating React Material-UI displays. The app is driven by dynamic, iterable content.</div>
-
     </a>
   </div>
 </div>
