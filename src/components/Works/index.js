@@ -84,7 +84,7 @@ function Works() {
   <div class="tile">
     <a class="tile-link" href="http://www.christinaserafina.com" target="_blank">
       <img class="tile-img tile-img5" src={reikiSite} alt="reikisite"/>
-      <div className="message">A single-page web app in React.js for a service-based website that leverages reusable components for each section of the page, while also incorporating React Material-UI displays. The app is driven by dynamic, iterable content.</div>
+      <div className="message">A single-page web app in React.js for a service-based website that leverages reusable components for each section of the page, while also incorporating React Material-UI displays and leverages an API to pull and display the most recent Google business reviews. The app is driven by dynamic, iterable content. </div>
     </a>
   </div>
 </div>
