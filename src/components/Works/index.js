@@ -69,7 +69,7 @@ function Works() {
 </div>
 <div class="grid-block">
   <div class="tile">
-    <a class="tile-link" href="https://ohdangbro.github.io/Streaming-Search/" target="_blank">
+    <a class="tile-link" href="https://willg1991.github.io/Streaming-Search/" target="_blank">
       <img class="tile-img tile-img1" src={searchSite} alt="searchsite"/>
       <div className="message">A website that enables users to search for a particular movie or show to see where it is currently being streamed. The site was built using two APIs, along with Node, Express, JavaScript, HTML, and CSS to create a seamless and dynamic user experience.</div>
     </a>
