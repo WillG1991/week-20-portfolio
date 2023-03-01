@@ -1,5 +1,4 @@
 import React, { useRef, useEffect } from "react";
-import ReactDOM from "react-dom";
 import hoverEffect from "hover-effect";
 import meTent from "../../assets/img/meTent.jpg";
 import meBees from "../../assets/img/meBees.jpg";
@@ -22,17 +21,15 @@ function MeImage() {
   }, [container]);
 
   return (
-    
-   
-      <div
-        id="imgContainer"
-        ref={container}
-        style={{
-          width: 400,
-          height: 400
-        }}
-      />
-   
+    <div
+      id="imgContainer"
+      ref={container}
+      style={{
+        width: 400,
+        height: 400
+      }}
+    />
+
   );
 }
 
