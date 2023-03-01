@@ -4,7 +4,6 @@ import About from "../../components/About";
 import Hero from "../../components/Hero";
 import Navbar from "../../components/Nav";
 import Skills from "../../components/Skills";
-import Contact from "../../Pages/Contact";
 import Footer
  from "../../components/Footer";
 function Home() {
