@@ -23,7 +23,7 @@ function About() {
           </div>
         </div>
         <Fade bottom duration={2300}>
-          <MeImage className="meLooking" />
+          <MeImage className="meLooking" alt="web developer selfie" />
         </Fade>
       </div>
     </section>

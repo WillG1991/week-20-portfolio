@@ -27,7 +27,7 @@ function Hero() {
 
         <Fade duration={16000}><p>I'm a freelance web developer based in the New York Metro area.</p></Fade>
        
-        <Fade duration={6000} ><span ><img alt="" class="heroImageMe" src={heroMe}/></span></Fade>
+        <Fade duration={6000} ><span ><img alt="selfie of web developer" class="heroImageMe" src={heroMe}/></span></Fade>
 
       </div>
     </div>
