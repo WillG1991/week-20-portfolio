@@ -78,9 +78,9 @@ function Works() {
             </div>
             <div className="grid-block">
               <div className="tile">
-                <a className="tile-link" href="http://www.branchburgsbest.com" target="_blank">
+                <a className="tile-link" href="https://willg1991.github.io/SliceSociety/" target="_blank">
                   <img className="tile-img tile-img2" src={dinerSite} alt="blanksite" />
-                  <div className="message">A restaurant website using HTML, CSS, and Bootstrap. The site features a sleek and modern design and a seamless user experience for customers.</div>
+                  <div className="message">A web template built with React.js and Material-UI, offering a convenient and visually appealing way to create dynamic web pages that deliver a top-notch user experience.</div>
                 </a>
               </div>
             </div>
