@@ -1,130 +1,170 @@
-import React from "react";
-import apiarySite from "../../assets/img/worksImages/apiaryWorks.png"
-import searchSite from "../../assets/img/worksImages/searchWorks.png"
-import movieSite from "../../assets/img/worksImages/movieWorks.png"
-import codeSite from "../../assets/img/worksImages/codeWorks.png"
-import reikiSite from "../../assets/img/worksImages/reikiWorks.png"
-import dinerSite from "../../assets/img/worksImages/dinerWorks.png"
-import eventSite from "../../assets/img/worksImages/eventWorks.png"
-import blankSite from "../../assets/img/worksImages/blankWorks.png"
+import React, { useState } from "react";
+import apiarySite from "../../assets/img/worksImages/apiaryWorks.jpg";
+import searchSite from "../../assets/img/worksImages/searchWorks.png";
+import movieSite from "../../assets/img/worksImages/movieWorks.png";
+import codeSite from "../../assets/img/worksImages/codeWorks.png";
+import reikiSite from "../../assets/img/worksImages/reikiWorks.jpg";
+import dinerSite from "../../assets/img/worksImages/dinerWorks.png";
+import eventSite from "../../assets/img/worksImages/eventWorks.png";
+import paperBack from "../../assets/img/worksImages/paper.png"
+import { makeStyles } from "@material-ui/core/styles";
+import Grid from "@material-ui/core/Grid";
+import Box from "@material-ui/core/Box";
+import Typography from "@material-ui/core/Typography";
 
-function Works() {
+const useStyles = makeStyles((theme) => ({
+  root: {
+    margin: theme.spacing(3),
+  },
+  header: {
+    marginBottom: theme.spacing(2),
+  },
+  imageContainer: {
+    position: "relative",
+    margin: theme.spacing(1),
+    height: 0,
+    paddingTop: "56.25%", // 16:9 aspect ratio
+    "& img": {
+      position: "absolute",
+      top: 0,
+      left: 0,
+      width: "100%",
+      height: "100%",
+      objectFit: "cover",
+    },
+  },
+  textBox: {
+    position: "absolute",
+    bottom: "25%",
+    left: 0,
+    right: 0,
+    height: "50%",
+    backgroundImage: `url(${paperBack})`,
+    backgroundRepeat: "no-repeat",
+    backgroundSize: "80%",
+    backgroundPosition: "center",
+    backgroundOrigin: "content-box",
+    display: "flex",
+    textAlign: "center",
+    justifyContent: "center",
+    alignItems: "center",
+  },
+  hoverImageContainer: {
+    position: "relative",
+    margin: theme.spacing(1),
+    height: 0,
+    paddingTop: "56.25%", // 16:9 aspect ratio
+    "&::before": {
+      content: "''",
+      position: "absolute",
+      top: 0,
+      left: 0,
+      width: "100%",
+      height: "100%",
+      backgroundColor: "purple",
+      opacity: 0.8,
+      zIndex: 1,
+    },
+    "& > *": {
+      position: "absolute",
+      top: "50%",
+      left: "50%",
+      transform: "translate(-50%, -50%)",
+      zIndex: 2,
+      textAlign: "center",
+      color: "#fff",
+      fontFamily: "Roboto",
+      fontWeight: "bold",
+    },
+  },
+  hoverHeader: {
+    position: "absolute",
+    top: "10px",
+    left: "10px",
+    textAlign: "left",
+  },
+  hoverText: {
+    position: "absolute",
+    textAlign: "left",
+  }
+}));
+
+const images = [
+  { src: apiarySite, alt: "Apiary Site", text: "Apiary Site", header: "RDSFDAFDSAFDSF", description: "Apiary Site Description" },
+  { src: searchSite, alt: "Search Site", text: "This is the Search Site", header: "Search Site Header", description: "Search Site Description" },
+  { src: dinerSite, alt: "Diner Site", text: "This is the Diner Site", header: "Diner Site Header", description: "Diner Site Description" },
+  { src: reikiSite, alt: "REIKI SITE", text: "REIKI SITE", header: "REIKI SITE Header", description: "REIKI SITE Description" },
+  { src: codeSite, alt: "Code Site", text: "This is the Code Site", header: "Code Site Header", description: "Code Site Description" },
+  { src: eventSite, alt: "Event Site", text: "This is the Event Site", header: "Event Site Header", description: "Event Site Description" },
+];
+
+const Works = () => {
+  const classes = useStyles();
+  const [hoveredImage, setHoveredImage] = useState(null);
+
+  const handleImageHover = (index) => {
+    setHoveredImage(index);
+  };
+
+  const handleImageLeave = () => {
+    setHoveredImage(null);
+  };
+
   return (
+    <section className={classes.root}>
+      <Typography variant="h4" className={classes.header}>
+        Works
+      </Typography>
+      <div>
+      <Grid container spacing={1} justify="center">
+        {images.map((image, index) => (
+          <Grid item xs={12} sm={6} md={4} key={image.src}>
+<Box
+  className={`${classes.imageContainer} ${hoveredImage === index && classes.hoverImageContainer}`}
+  onMouseEnter={() => setHoveredImage(index)}
+  onMouseLeave={() => setHoveredImage(null)}
+>
+  {hoveredImage === index ? (
+    <Box className={classes.hoverImageContainer}>
+   <Typography
+  className={classes.hoverHeader}
+  variant="h4"
+  style={{ color: "#fff" }}
+>
+  {image.header}
+</Typography>
+<Typography
+  className={classes.hoverText}
+  variant="h5"
+  style={{ color: "#fff" }}
+>
+  {image.description}
+</Typography>
+    </Box>
+  ) : (
     <>
-      <section id="works">
-        <h1 className="worksHeader damionFont">Works</h1>
-        <div className="worksContainer">
-          <div className="grid image-grid">
-            <div className="grid-block">
-              <div className="tile">
-                <a className="tile-link" >
-                  <img className="tile-img tile-img2" src={blankSite} alt="place holder card for blank site/ocean image" useRef={blankSite} />
-                </a>
-              </div>
-            </div>
-            <div className="grid-block">
-              <div className="tile">
-                <a className="tile-link" >
-                  <img className="tile-img tile-img2" src={blankSite} alt="place holder card for blank site/ocean image" />
-                </a>
-              </div>
-            </div>
-            <div className="grid-block">
-              <div className="tile">
-                <a className="tile-link" >
-                  <img className="tile-img tile-img1" src={blankSite} alt="place holder card for blank site/ocean image" />
-                </a>
-              </div>
-            </div>
-            <div className="grid-block">
-              <div className="tile">
-                <a className="tile-link" href="http://www.polishedeventsco.com" target="_blank">
-                  <img className="tile-img tile-img2" src={eventSite} alt="ocean waves crashing card for event site" useRef={eventSite} />
-                  <div className="message">A consumer event planning site that has been designed and developed using React.js. The site features an intuitive user interface and incorporates an EmailJS contact form, allowing users to easily get in touch. Additionally, the site boasts a beautiful photo gallery with a lightbox, making it simple to showcase stunning images of past events.</div>
-                </a>
-              </div>
-            </div>
-            <div className="grid-block">
-              <div className="tile">
-                <a className="tile-link" href="https://github.com/rrvallar/Project-3 " target="_blank">
-                  <img className="tile-img tile-img2" src={movieSite} alt="ocean waves crashing card for movie site" useRef={movieSite} />
-                  <div className="message">MovieSwipe is a team-built full-stack MERN app that lets users swipe movies and save favorites to their profile. I was responsible for back-end, using HTML, CSS, Bootstrap, Javascript, Express, MongoDB, GraphQL, and React in a one-week sprint.</div>
-                </a>
-              </div>
-            </div>
-            <div className="grid-block">
-              <div className="tile">
-                <a className="tile-link" href="http://www.gehrkeapiaries.com" target="_blank" >
-                  <img className="tile-img tile-img3" src={apiarySite} alt="ocean waves crashing card for apiary site" useRef={apiarySite} />
-                  <div className="message">E-commerce website using React that includes custom CSS styling to create a unique design. I also utilized some React Material-UI components to enhance the user experience.</div>
-                </a>
-              </div>
-            </div>
-            <div className="grid-block">
-              <div className="tile">
-                <a className="tile-link" href="https://willg1991.github.io/Streaming-Search/" target="_blank">
-                  <img className="tile-img tile-img1" src={searchSite} alt="ocean waves crashing card for movie search site" />
-                  <div className="message">A website that enables users to search for a particular movie or show to see where it is currently being streamed. The site was built using two APIs, along with Node, Express, JavaScript, HTML, and CSS to create a seamless and dynamic user experience.</div>
-                </a>
-              </div>
-            </div>
-            <div className="grid-block">
-              <div className="tile">
-                <a className="tile-link" href="http://www.christinaserafina.com" target="_blank">
-                  <img className="tile-img tile-img5" src={reikiSite} alt="ocean waves crashing card for reiki site" />
-                  <div className="message">A single-page web app in React.js for a service-based website that leverages reusable components for each section of the page, while also incorporating React Material-UI displays and leverages an API to pull and display the most recent Google business reviews. The app is driven by dynamic, iterable content. </div>
-                </a>
-              </div>
-            </div>
-            <div className="grid-block">
-              <div className="tile">
-                <a className="tile-link" href="https://willg1991.github.io/SliceSociety/" target="_blank">
-                  <img className="tile-img tile-img2" src={dinerSite} alt="blanksite" />
-                  <div className="message">A web template built with React.js and Material-UI, offering a convenient and visually appealing way to create dynamic web pages that deliver a top-notch user experience.</div>
-                </a>
-              </div>
-            </div>
-            <div className="grid-block">
-              <div className="tile">
-                <a className="tile-link" href="https://codeabreak.herokuapp.com/" target="_blank">
-                  <img className="tile-img tile-img4" src={codeSite} alt="codesite" />
-                  <div className="message">A social media platform allowing users to log in, post, and comment. Built from the ground upin just one week, utilizing HTML, CSS, Bulma, SQL, Insomnia and Express to create a seamless user experience.</div>
-                </a>
-              </div>
-            </div>
-            <div className="grid-block">
-              <div className="tile">
-                <a className="tile-link" >
-                  <img className="tile-img tile-img2" src={blankSite} alt="place holder card for blank site/ocean image" />
-                </a>
-              </div>
-            </div>
-            <div className="grid-block">
-              <div className="tile">
-                <a className="tile-link" >
-                  <img className="tile-img tile-img2" src={blankSite} alt="place holder card for blank site/ocean image" />
-                </a>
-              </div>
-            </div>
-            <div className="grid-block">
-              <div className="tile">
-                <a className="tile-link" >
-                  <img className="tile-img tile-img2" src={blankSite} alt="place holder card for blank site/ocean image" />
-                </a>
-              </div>
-            </div>
-            <div className="grid-block">
-              <div className="tile">
-                <a className="tile-link" >
-                  <img className="tile-img tile-img2" src={blankSite} alt="place holder card for blank site/ocean image" />
-                </a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
+      <img src={image.src} alt={image.alt} />
+      <Box className={classes.textBox}>
+        <Typography
+          style={{
+            fontFamily: "Safety Gothic",
+            fontSize: "35px",
+            fontWeight: "bold",
+          }}
+          variant="h6"
+        >
+          {image.text}
+        </Typography>
+      </Box>
     </>
+  )}
+</Box>
+          </Grid>
+        ))}
+      </Grid>
+      </div>
+    </section>
   );
-}
+};
 
 export default Works;
