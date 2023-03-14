@@ -103,7 +103,7 @@ const useStyles = makeStyles((theme) => ({
       paddingLeft: "5px",
     },
     [theme.breakpoints.down("xs")]: {
-      fontSize: "15px",
+      fontSize: "12px",
       paddingTop: "5px",
       paddingLeft: "5px",
     },
