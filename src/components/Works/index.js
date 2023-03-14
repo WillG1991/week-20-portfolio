@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import apiarySite from "../../assets/img/worksImages/apiaryWorks.jpg";
 import searchSite from "../../assets/img/worksImages/searchWorks.jpg";
-import movieSite from "../../assets/img/worksImages/movieWorks.png";
 import codeSite from "../../assets/img/worksImages/codeWorks.jpg";
 import reikiSite from "../../assets/img/worksImages/reikiWorks.jpg";
 import dinerSite from "../../assets/img/worksImages/dinerWorks.jpg";
@@ -26,7 +25,7 @@ const useStyles = makeStyles((theme) => ({
     fontFamily: "Safety Gothic, sans-serif",
     fontSize: "3rem",
     textDecoration: "underline",
-    textDecorationColor: "rgb(4, 157, 227)"
+    textDecorationColor: "rgb(4, 157, 227)",
   },
   imageContainer: {
     position: "relative",
@@ -57,6 +56,10 @@ const useStyles = makeStyles((theme) => ({
     textAlign: "center",
     justifyContent: "center",
     alignItems: "center",
+       [theme.breakpoints.down("md")]: {
+      fontSize: "12px",
+     
+    },
   },
 
   hoverHeader: {
@@ -66,16 +69,44 @@ const useStyles = makeStyles((theme) => ({
     textAlign: "left",
     fontSize: "25px",
     paddingLeft: "10px",
-    paddingTop: "10px"
-
+    paddingTop: "10px",
+    [theme.breakpoints.down("md")]: {
+      fontSize: "18px",
+      paddingTop: "5px",
+      paddingLeft: "5px",
+    },
+    [theme.breakpoints.down("sm")]: {
+      fontSize: "20px",
+      paddingTop: "5px",
+      paddingLeft: "5px",
+    },
+    [theme.breakpoints.down("xs")]: {
+      fontSize: "20px",
+      paddingTop: "5px",
+      paddingLeft: "5px",
+    },
   },
   hoverText: {
     position: "absolute",
     top: 50,
     left: 0,
     textAlign: "left",
-    fontSize: "15px",
+    fontSize: "17px",
     paddingLeft: "10px",
+    [theme.breakpoints.down("md")]: {
+      fontSize: "12px",
+      paddingLeft: "5px",
+    },
+        [theme.breakpoints.down("sm")]: {
+      fontSize: "10px",
+      paddingTop: "2px",
+      paddingLeft: "5px",
+    },
+    [theme.breakpoints.down("xs")]: {
+      fontSize: "15px",
+      paddingTop: "5px",
+      paddingLeft: "5px",
+    },
   },
   hoverTextWrapper: {
     display: "flex",
@@ -87,10 +118,10 @@ const useStyles = makeStyles((theme) => ({
     bottom: 10,
     left: 0,
     textAlign: "left",
-    fontSize: "20px",
+    fontSize: "15px",
     color: "white",
     paddingLeft: "10px",
-
+    textDecoration: "none", // remove underline
   },
   hoverImageContainer: {
     backgroundColor: "rgb(4, 157, 227)",
@@ -101,22 +132,16 @@ const images = [
   { src: apiarySite, alt: "APIARY SITE", text: "APIARY SITE", header: "APIARY SITE", description: "E-commerce website using React that includes custom CSS styling to create a unique design. I also utilized some React Material-UI components to enhance the user experience.", link: "http://www.gehrkeapiaries.com/" },
   { src: searchSite, alt: "Search Site", text: "SEARCH & STREAM", header: "SEARCH & STREAM", description: "A website that enables users to search for a particular movie or show to see where it is currently being streamed. The site was built using two APIs, along with Node, Express, JavaScript, HTML, and CSS to create a seamless and dynamic user experience.", link: "https://willg1991.github.io/Streaming-Search/" },
   { src: dinerSite, alt: "Diner Site", text: "RESTAURANT SITE", header: "RESTAURANT SITE", description: "A web template built with React.js and Material-UI, offering a convenient and visually appealing way to create dynamic web pages that deliver a top-notch user experience.", link: "https://willg1991.github.io/SliceSociety/" },
-  { src: reikiSite, alt: "REIKI SITE", text: "REIKI SITE", header: "REIKI SITE", description: "A single-page web app in React.js for a service-based website that leverages reusable components for each section of the page, while also incorporating React Material-UI displays and leverages an API to pull and display the most recent Google business reviews. The app is driven by dynamic, iterable content.", link: "https://christinaserafina.com/" },
+  { src: reikiSite, alt: "REIKI SITE", text: "REIKI SITE", header: "REIKI SITE", description: "A single-page web app in React.js for a service-based website that leverages reusable components for each section of the page, while incorporating React Material-UI displays and an API to display the most recent Google reviews.", link: "https://christinaserafina.com/" },
   { src: codeSite, alt: "Code Site", text: "CODE A <BR>", header: "CODE A <BR>", description: "A social media platform allowing users to log in, post, and comment. Built from the ground upin just one week, utilizing HTML, CSS, Bulma, SQL, Insomnia and Express to create a seamless user experience.", link: "https://codeabreak.herokuapp.com/" },
-  { src: eventSite, alt: "Event Site", text: "EVENT PLANNING SITE", header: "EVENT PLANNING SITE", description: "A consumer event planning site that has been designed and developed using React.js. The site features an intuitive user interface and incorporates an EmailJS contact form, allowing users to easily get in touch. Additionally, the site boasts a beautiful photo gallery with a lightbox, making it simple to showcase stunning images of past events.", link: "https://polishedeventsco.com/" },
+  { src: eventSite, alt: "Event Site", text: "EVENT SITE", header: "EVENT PLANNING SITE", description: "A consumer event planning site using React.js. The site features an intuitive user interface and incorporates an EmailJS contact form. Additionally, the site has photo gallery with a lightbox, showcasing images.", link: "https://polishedeventsco.com/" },
 ];
 
 const Works = () => {
   const classes = useStyles();
   const [hoveredImage, setHoveredImage] = useState(null);
 
-  const handleImageHover = (index) => {
-    setHoveredImage(index);
-  };
 
-  const handleImageLeave = () => {
-    setHoveredImage(null);
-  };
 
   return (
     <Container maxWidth="lg">
@@ -150,8 +175,8 @@ const Works = () => {
     >
       {image.description}
     </Typography>
-    <Typography className={classes.hoverLink} style={{ textDecoration: 'none', color: "#fff" }}>
-    <a href={image.link} target="_blank">See More</a>
+    <Typography className={classes.hoverLink} >
+    <a href={image.link} target="_blank " style={{ textDecoration: 'underline', color: "#fff" }}>See More</a>
     </Typography>
   </div>
 </Box>
