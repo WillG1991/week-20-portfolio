@@ -176,7 +176,7 @@ const Works = () => {
       {image.description}
     </Typography>
     <Typography className={classes.hoverLink} >
-    <a href={image.link} target="_blank " style={{ textDecoration: 'underline', color: "#fff" }}>See More</a>
+    <a href={image.link} target="_blank " style={{ textDecoration: 'underline', color: "#fff" }}>See the site</a>
     </Typography>
   </div>
 </Box>
