@@ -390,101 +390,6 @@ transform: rotateX(-45deg) rotateZ(-45deg);
   perspective: 1000px;
 }
 
-.image-grid .tile-link:hover .tile-img {
-  top: -1rem;
-  left: -1rem;
-}
-
-.image-grid .tile-img {
-  position: relative;
-  top: 0;
-  left: 0;
-  -webkit-transition-property: opacity, top, left, box-shadow;
-  transition-property: opacity, top, left, box-shadow;
-}
-
-.tile-link {
-  display: block;
-}
-
-.tile-link:hover .tile-img {
-  opacity: 1;
-}
-
-.tile-link:hover .tile-img-link {
-  display: block;
-}
-
-.tile-link:hover .tile-img-link:hover .tile-img {
-  opacity: 0.5;
-}
-
-.tile-img {
-  display: block;
-  width: 80%;
-  height: auto;
-  opacity: 1;
-  -webkit-transition-property: opacity;
-  transition-property: opacity;
-  -webkit-transition-duration: 0.125s;
-  transition-duration: 0.125s;
-  -webkit-transition-timing-function: ease-in;
-  transition-timing-function: ease-in;
-}
-.tile-link:hover .tile-img1 {
-  box-shadow: 5px 5px rgba(45, 186, 233, 0.4), 10px 10px rgba(45, 186, 233, 0.3),
-    15px 15px rgba(45, 186, 233, 0.2), 20px 20px rgba(45, 186, 233, 0.1),
-    25px 25px rgba(45, 186, 233, 0.05);
-    z-index: 1;
-}
-
-.tile-link:hover .tile-img2 {
-  box-shadow: 5px 5px rgba(45, 186, 233, 0.4), 10px 10px rgba(45, 186, 233, 0.3),
-    15px 15px rgba(45, 186, 233, 0.2), 20px 20px rgba(45, 186, 233, 0.1),
-    25px 25px rgba(45, 186, 233, 0.05);
-    z-index: 1;
-}
-
-.tile-link:hover .tile-img3 {
-  box-shadow: 5px 5px rgba(45, 186, 233, 0.4), 10px 10px rgba(45, 186, 233, 0.3),
-    15px 15px rgba(45, 186, 233, 0.2), 20px 20px rgba(45, 186, 233, 0.1),
-    25px 25px rgba(45, 186, 233, 0.05);
-    z-index: 1;
-}
-
-.tile-link:hover .tile-img4 {
-  box-shadow: 5px 5px rgb(4 157 227), 10px 10px rgb(4 157 227),
-    15px 15px rgba(45, 186, 233, 0.2), 20px 20px rgba(45, 186, 233, 0.1),
-    25px 25px rgba(45, 186, 233, 0.05);
-    z-index: 1;
-}
-
-.tile-link:hover .tile-img5 {
-  box-shadow: 5px 5px rgba(45, 186, 233, 0.4), 10px 10px rgba(45, 186, 233, 0.3),
-    15px 15px rgba(45, 186, 233, 0.2), 20px 20px rgba(45, 186, 233, 0.1),
-    25px 25px rgba(45, 186, 233, 0.05);
-    z-index: 1;
-}
-
-.tile-link:hover .tile-img6 {
-  box-shadow: 5px 5px rgba(45, 186, 233, 0.4), 10px 10px rgba(45, 186, 233, 0.3),
-    15px 15px rgba(45, 186, 233, 0.2), 20px 20px rgba(45, 186, 233, 0.1),
-    25px 25px rgba(45, 186, 233, 0.05);
-    z-index: 1;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* ---------------------------------------------------------works */
 
 
@@ -1298,27 +1203,26 @@ line-height: 5px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: left;
-    background: linear-gradient(rgba(0, 0, 0, 0.342), rgba(0, 0, 0, 0.342)),;
+    justify-content: center;
+    background: linear-gradient(rgba(0, 0, 0, 0.342), rgba(0, 0, 0, 0.342));
     padding-top: 20%;
-}
-
-
-.aboutText {
-  font-size: .9rem;
-  line-height: 1rem;
-  width: 82%;
-  margin-left: 3%;
-}
-
-
-canvas {
-  width: 300px !important;
-  height: 250px !important;
-  margin-left: 40%;
-  margin-top: 20%;
-  padding: 8px;
-}
+  }
+  
+  .aboutText {
+    font-size: .9rem;
+    line-height: 1rem;
+    width: 100%; /* set width to 100% */
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  canvas {
+ 
+    height: 250px !important;
+    width: 100% !important;
+    margin-top: 20px;
+    padding: 8px;
+  }
 
   .skills {
     padding-top: 5%;
