@@ -159,6 +159,8 @@ const Works = () => {
   onMouseLeave={() => setHoveredImage(null)}
   onTouchStart={() => setHoveredImage(index)}
   onTouchEnd={() => setHoveredImage(null)}
+  onClick={() => window.open(image.link)}
+
 >
   {hoveredImage === index ? (
     <Box>
