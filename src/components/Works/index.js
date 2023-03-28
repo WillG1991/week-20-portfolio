@@ -129,9 +129,9 @@ const useStyles = makeStyles((theme) => ({
 }));
 
 const images = [
-  { src: apiarySite, alt: "APIARY SITE", text: "APIARY SITE", header: "APIARY SITE", description: "E-commerce website using React that includes custom CSS styling to create a unique design. I also utilized some React Material-UI components to enhance the user experience.", link: "http://www.gehrkeapiaries.com/" },
   { src: searchSite, alt: "Search Site", text: "SEARCH & STREAM", header: "SEARCH & STREAM", description: "Movie search app built with React & Material UI. Uses 2 APIs to show where a movie can be streamed. Users can save favorites to local storage.", link: "https://willg1991.github.io/streamandsearchReact/" },
   { src: dinerSite, alt: "Diner Site", text: "RESTAURANT SITE", header: "RESTAURANT SITE", description: "This website is a React.js port of a popular Bootstrap template, enhanced with Material-UI components for a modern and sleek design. It provides an efficient and visually appealing way to create dynamic web pages with excellent user experience.", link: "https://willg1991.github.io/SliceSociety/" },
+  { src: apiarySite, alt: "APIARY SITE", text: "APIARY SITE", header: "APIARY SITE", description: "E-commerce website using React that includes custom CSS styling to create a unique design. I also utilized some React Material-UI components to enhance the user experience.", link: "http://www.gehrkeapiaries.com/" },
   { src: reikiSite, alt: "REIKI SITE", text: "REIKI SITE", header: "REIKI SITE", description: "A single-page web app in React.js for a service-based website that leverages reusable components for each section of the page, while incorporating React Material-UI displays and an API to display the most recent Google reviews.", link: "https://christinaserafina.com/" },
   { src: codeSite, alt: "Code Site", text: "CODE A <BR>", header: "CODE A <BR>", description: "A social media platform allowing users to log in, post, and comment. Built from the ground upin just one week, utilizing HTML, CSS, Bulma, SQL, Insomnia and Express to create a seamless user experience.", link: "https://codeabreak.herokuapp.com/" },
   { src: eventSite, alt: "Event Site", text: "EVENT SITE", header: "EVENT PLANNING SITE", description: "A consumer event planning site using React.js. The site features an intuitive user interface and incorporates an EmailJS contact form. Additionally, the site has photo gallery with a lightbox, showcasing images.", link: "https://polishedeventsco.com/" },
@@ -157,6 +157,8 @@ const Works = () => {
   className={`${classes.imageContainer} ${hoveredImage === index && classes.hoverImageContainer}`}
   onMouseEnter={() => setHoveredImage(index)}
   onMouseLeave={() => setHoveredImage(null)}
+  onTouchStart={() => setHoveredImage(index)}
+  onTouchEnd={() => setHoveredImage(null)}
 >
   {hoveredImage === index ? (
     <Box>
