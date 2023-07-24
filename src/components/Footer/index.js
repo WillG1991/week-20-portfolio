@@ -23,7 +23,7 @@ function Footer() {
         </a>
       </section>
       <section style={{ padding: '10px', display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
-        <a href="https://docs.google.com/document/d/17J-rIdyp_p1w4Yhi-fheD4L8HtL0Ux-I/edit?usp=sharing&ouid=105742650677579971027&rtpof=true&sd=true" target="_blank" rel="noopener noreferrer">
+        <a href="https://drive.google.com/file/d/1gkvsJcNR_Fp4rfTqoeRPieXlbPtEllwk/view?usp=sharing" target="_blank" rel="noopener noreferrer">
           <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
             <Folder style={{ fontSize: 30 }} alt="folder icon" />
             <span>See My Resume</span>
