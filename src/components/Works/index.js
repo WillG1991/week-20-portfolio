@@ -145,7 +145,7 @@ const Works = () => {
 
   return (
     <Container maxWidth="lg">
-    <section className={classes.root}>
+    <section className={classes.root} id="works">
       <Typography variant="h4" className={classes.header}>
         WORKS
       </Typography>
