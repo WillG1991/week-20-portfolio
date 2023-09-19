@@ -790,16 +790,19 @@ textarea {
   }
 
   #works {
-    padding-top: 50%;
+    height: 210vh;
+    width: 97%;
+    padding: none !important;
   }
 
   #skills {
-    padding-top: 35%;
     overflow: hidden;
+    height: 90vh;
   }
 
   #about {
     overflow: hidden !important;
+    
   }
 
 
