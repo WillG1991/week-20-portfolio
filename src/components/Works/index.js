@@ -141,6 +141,17 @@ const Works = () => {
   const classes = useStyles();
   const [hoveredImage, setHoveredImage] = useState(null);
 
+  const isMobile = window.innerWidth <= 600; // Adjust the breakpoint as needed
+
+  const handleImageClick = (imageIndex, link) => {
+    if (isMobile) {
+      window.open(link, "_blank");
+    } else {
+      // Handle the hover effect for non-mobile devices
+      setHoveredImage(imageIndex);
+    }
+  };
+
 
 
   return (
@@ -153,15 +164,16 @@ const Works = () => {
       <Grid container spacing={1} justify="center">
         {images.map((image, index) => (
           <Grid item xs={12} sm={6} md={4} key={image.src}>
-<Box
-  className={`${classes.imageContainer} ${hoveredImage === index && classes.hoverImageContainer}`}
-  onMouseEnter={() => setHoveredImage(index)}
-  onMouseLeave={() => setHoveredImage(null)}
-  onTouchStart={() => setHoveredImage(index)}
-  onTouchEnd={() => setHoveredImage(null)}
-  onClick={() => window.open(image.link)}
-
->
+    <Box
+                  className={`${classes.imageContainer} ${
+                    hoveredImage === index && classes.hoverImageContainer
+                  }`}
+                  onMouseEnter={() => setHoveredImage(index)}
+                  onMouseLeave={() => setHoveredImage(null)}
+                  onTouchStart={() => setHoveredImage(index)}
+                  onTouchEnd={() => setHoveredImage(null)}
+                  onClick={() => handleImageClick(index, image.link)} // Updated click handler
+                >
   {hoveredImage === index ? (
     <Box>
   <Typography
